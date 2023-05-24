@@ -15,3 +15,12 @@ It is suitable for growing food with the highest level of precision, running com
 
     hardware/1.overview
     hardware/0.index
+
+.. toctree:: 
+    :caption: Assembly
+    :maxdepth: 1
+    :hidden:
+    :titlesonly: 
+
+    assembly/1.preparation
+    assembly/0.index

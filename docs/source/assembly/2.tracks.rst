@@ -1,0 +1,8 @@
+Tracks
+===================
+
+- AgriBot’s tracks allow the gantry to move precisely along the x-axis.
+
+- They are designed to attach to a raised bed or similar supporting infrastructure.
+
+- Each track is composed of 1.5m long aluminum extrusions positioned end-to-end to form a total track length of 3m for normal models and 6m for XL model.
