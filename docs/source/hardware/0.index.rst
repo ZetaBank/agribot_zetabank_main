@@ -1,0 +1,9 @@
+Hardware
+===========================
+
+Here are the contents of this section:
+
+.. toctree:: 
+
+    3.tools
+    4.electronics
