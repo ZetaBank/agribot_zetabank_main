@@ -24,7 +24,7 @@ Stall detection
 Fuse
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- A fuse is located on the Farmduino to protect the electronics from over-current conditions that may be caused by a short or other malfunction.
+- A fuse is located on the Agriduino to protect the electronics from over-current conditions that may be caused by a short or other malfunction.
 
 |
 

@@ -148,7 +148,7 @@ Step 7: Attach the next track joining plate
 
 |
 
-- Repeat to install subsequent track joining plates and track extrusions.FarmBot
+- Repeat to install subsequent track joining plates and track extrusions.
 
 |
 
