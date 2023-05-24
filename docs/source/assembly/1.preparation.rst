@@ -1,4 +1,4 @@
-Assembly Preparation
+Preparation
 ===================
 
 Organize your parts

@@ -1,4 +1,4 @@
-Assembly Instruction
+Instruction
 ===========================
 
 Here are the contents of this section:
