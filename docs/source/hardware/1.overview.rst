@@ -27,7 +27,7 @@ Tracks
 
 - The tracks are what allow the system to have great precision in an efficient and simple manner. There are many reasons of why tracks are superior, a few of which are listed below.
 
-1. Tracks provide great precision and allow the FarmBot to return to the same position repeatedly.
+1. Tracks provide great precision and allow the AgriBot to return to the same position repeatedly.
 
 2. Any type of packing structure of plants can be created and managed.
 
@@ -51,7 +51,7 @@ Cross-slide
 
 - The cross-slide moves across the gantry along the y-axis.
 
-- This motion provides the second major degree of freedom for FarmBots and allows operations such as planting to be done anywhere in the X/Y plane.
+- This motion provides the second major degree of freedom for AgriBots and allows operations such as planting to be done anywhere in the X/Y plane.
 
 - The cross-slide is moved using a belt and pulley drive system and serves as the base for the z-axis to attach to.
 
@@ -60,7 +60,7 @@ Cross-slide
 Z-axis
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- The z-axis attaches to the cross-slide and provides the FarmBot with movement along the z-axis.
+- The z-axis attaches to the cross-slide and provides the AgriBot with movement along the z-axis.
 
 - It serves as the base for attaching the universal tool mount and other tools.
 
