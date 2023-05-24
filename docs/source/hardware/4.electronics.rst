@@ -1,21 +1,21 @@
 Electronics
 ===================
 
-- The Farmduino and Raspberry Pi are the central components of the FarmBot from an electronic systems perspective.
+- The Agriduino and Raspberry Pi are the central components of the AgriBot from an electronic systems perspective.
 
 - The diagram below shows how the other electronic components connect to these boards, as well as how the two are connected to each other.
 
-- The Farmduino microcontroller uses Arduino architecture and it communicates with the Raspberry Pi using a G-code like language.
+- The Agriduino microcontroller uses Arduino architecture and it communicates with the Raspberry Pi using a G-code like language.
 
-- The Farmduino controls the stepper drivers and motors, as well as the UTM and peripherals. The Farmduino provides power and control to all the electronic components of the FarmBot.
+- The Agriduino controls the stepper drivers and motors, as well as the UTM and peripherals. The Agriduino provides power and control to all the electronic components of the AgriBot.
 
-- The board has a layout and connectors that are optimized for FarmBot’s various peripherals and motor requirements.
+- The board has a layout and connectors that are optimized for AgriBot’s various peripherals and motor requirements.
 
 .. thumbnail:: /_images/hardware/4.electronics/electronics_diagram.jpg
 
 |
 
-- Meanwhile, the Raspberry Pi is the web-connected brain that keeps track of FarmBot’s plants, sequences, regimens, events, and settings.
+- Meanwhile, the Raspberry Pi is the web-connected brain that keeps track of AgriBot’s plants, sequences, regimens, events, and settings.
 
 - Additionally, the Raspberry Pi is responsible for taking photos with the USB camera, and monitoring and controlling the push buttons and LEDs on top of the electronics box via the Pi adapter board.
 

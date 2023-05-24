@@ -1,9 +1,9 @@
-FarmBot Genesis Instruction Guide
+AgriBot Instruction Guide
 ===================
 
-.. thumbnail:: /_images/hardware/1.overview/farmbot_overview.jpg
+.. thumbnail:: /_images/hardware/1.overview/agribot_overview.jpg
 
-FarmBot Genesis is top-of-the-line FarmBot model designed with the most features and flexibility.
+AgriBot is top-of-the-line AgriBot model designed with the most features and flexibility.
 It is suitable for growing food with the highest level of precision, running complex experiments, and capable of being easily modified and extended to do more.
 
 

@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'FarmBot Instruction Guide'
+project = 'AgriBot Instruction Guide'
 # copyright = '2021, Graziella'
 author = 'Zetabank'
 
@@ -40,7 +40,7 @@ images_config = {
 # -- Options for HTML output
 html_static_path = ['_static']
 html_logo = "_static/logo.png"
-html_title = "ZetaBank - FarmBot Instruction Guide"
+html_title = "ZetaBank - AgriBot Instruction Guide"
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'analytics_id': 'UA-17821189-2',
