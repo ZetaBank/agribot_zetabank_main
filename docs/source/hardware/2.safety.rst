@@ -1,4 +1,4 @@
-Safety features
+Safety
 ===================
 
 - The following safety features have been engineered into the AgriBot to provide a safer user experience and help mitigate various hazards.

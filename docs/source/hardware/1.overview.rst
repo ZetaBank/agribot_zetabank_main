@@ -1,4 +1,4 @@
-Hardware Overview
+Overview
 ===================
 
 .. thumbnail:: /_images/hardware/1.overview/agribot_overview2.png
