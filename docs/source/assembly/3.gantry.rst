@@ -1,0 +1,100 @@
+Gantry
+===================
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry1.png
+
+|
+
+Assemble the Gantry Wheel Plates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Each gantry wheel plate will have nine wheel assemblies attached to allow sliding along the tracks.
+
+- The five wheels that ride on the top of the tracks will be attached to the plates with standard spacers.
+
+- The four wheels that ride underneath the tracks will be attached to the plates with eccentric spacers.
+
+- The eccentric spacers will be used to finely adjust the spacing between the top and the bottom wheels such that the gantry will roll smoothly and snuggly along the tracks.
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry2.jpg
+
+|
+
+Step 1: Attach the upper V-wheels
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Insert an M5 x 30mm screw through a V-wheel and a standard spacer.
+
+- Then insert this into the gantry wheel plate as shown and add an M5 flange locknut on the other side of the plate.
+
+- Tighten the wheel assembly using the 3mm hex driver and the 8mm box wrench, then repeat for the remaining four V-wheels with standard spacers.
+
+- All five of these wheels should be positioned on the plate in a straight line.
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry3.png
+
+|
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry4.png
+
+|
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry5.png
+
+|
+
+Step 2: Attach the lower V-wheels
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Insert an eccentric spacer into the gantry wheel plate.
+
+- Then insert an M5 x 30mm screw with a V-wheel through the spacer and secure the assembly with an M5 flange locknut on the other side of the plate.
+
+- Repeat for the remaining V-wheels attached with the eccentric spacers.
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry6.png
+
+|
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry7.png
+
+|
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry8.png
+
+|
+
+Step 3: Attach the nut bars
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Loosely attach two 60mm nut bars to the plate using four M5 x 10mm screws.
+
+- The nut bars should reside on the same side of the plate as the V-wheels.
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry9.png
+
+|
+
+Step 4: Repeat
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Repeat the above steps for the second gantry wheel plate assembly.
+
+- You should end up with two gantry wheel plate assemblies that are mirror images of each other.
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry10.jpg
+
+|
+
+Step 5: Adjust the V-wheel spacing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- The eccentric spacers on the lower wheels of each gantry wheel plate assembly are used for making fine adjustments to the spacing between the lower wheels and the upper wheels.
+
+- Adjusting this spacing is the key to having your gantry move smoothly and wobble-free across the tracks.
+
+- If the spacing is too little, then the gantry will not fit onto the tracks at all or be tough to move.
+
+- If the spacing is too great, then the gantry will be wobbly and loose. Adjust the eccentric spacers using the eccentric spacer adjustment reference guide.
+
+|
