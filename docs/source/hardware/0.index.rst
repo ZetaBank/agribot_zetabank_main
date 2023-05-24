@@ -5,5 +5,7 @@ Here are the contents of this section:
 
 .. toctree:: 
 
+    2.safety
     3.tools
     4.electronics
+    5.questions
