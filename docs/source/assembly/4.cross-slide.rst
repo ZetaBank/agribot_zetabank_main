@@ -1,2 +1,139 @@
 Cross-Slide
 ===================
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide1.png
+
+|
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide2.jpg
+
+|
+
+Step 1: Add the gantry V-wheels
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Attach four V-wheels with standard spacers to the cross-slide plate using M5 x 30mm screws and M5 flange locknuts.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide3.jpg
+
+|
+
+- Attach three V-wheels with eccentric spacer to the holes shown using M5 x 30mm screws and M5 flange locknuts.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide4.jpg
+
+|
+
+Step 2: Add the Z-axis V-wheels
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Flip the cross-slide over so that all of the V-wheels you have added so far are facing away from you.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide5.jpg
+
+|
+
+- Attach two V-wheels with standard spacers to the holes shown using M5 x 30mm screws and M5 flange locknuts.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide6.jpg
+
+|
+
+- Attach three V-wheels with eccentric spacers to the holes shown using M5 x 30mm screws and M5 flange locknuts.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide7.jpg
+
+|
+
+Step 3: Add the leadscrew block
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Attach the leadscrew block to the cross-slide plate using M5 x 30mm screws and M5 flange locknuts.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide8.png
+
+|
+
+Step 4: Add the stepper motor
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Insert a motor into a horizontal motor housing such that the motor and encoder connectors are facing down, out the open face of the housing.
+
+- Then attach the motor and housing to the cross-slide plate with four M3 x 12mm screws.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide9.png
+
+|
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide10.jpg
+
+|
+
+- Slide a pulley onto the motor shaft.
+
+- Make sure that both setscrews are lined up with the flat spots of the motor shaft.
+
+- Then tighten the setscrews with the 2mm driver.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide11.jpg
+
+|
+
+Step 5: Add the cable carrier mount
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Attach the 80mm cable carrier mount to the cross-slide plate using M5 x 16mm screws and M5 flange locknuts.
+
+- The bracket should be on the opposite side of the plate as the motor.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide12.jpg
+
+|
+
+Step 6: Slide the cross-slide onto the gantry main beam
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- In order for the cross-slide to slide smoothly and wobble-free on the gantry main beam, you must first adjust the eccentric spacers of the bottom three V-wheels.
+
+- Adjust the eccentric spacers using the eccentric spacer adjustment reference guide.
+
+- Once you have adjusted the eccentric spacers, slide the cross-slide onto the gantry main beam.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide13.png
+
+|
+
+- The cross-slide should move easily across the full width of the gantry. If you feel any significant resistance, re-adjust the eccentric spacers so that there is less resistance to movement.
+
+- On XL models, pay special attention at the connection point between the two gantry main beams.
+
+- If there is any significant bump or resistance to movement at the joint, you may use sand paper to sand away the bump.
+
+|
+
+Step 7: Feed and secure the belt
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Attach a belt clip to the end of the gantry main beam using two M5 x 10mm screws and a 20mm nut bar.
+
+- Then secure one end of the y-axis GT2 timing belt (2m long for normal model, 3.5m long for XL) to the belt clip using the belt installation reference guide.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide14.png
+
+|
+
+- Feed the belt under the end V-wheel of the cross-slide, then over the pulley and under the remaining three V-wheels.
+
+- The flat side of the belt should be in contact with your V-wheels while the toothed side should engage with the teeth on the pulley.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide15.png
+
+|
+
+- Secure the belt at the other end of the gantry with another belt clip, 20 mm nut bar, and two M5 x 10mm screws.
+
+- Ensure there is a small amount of tension on the belt once everything is in place.
+
+.. thumbnail:: /_images/assembly/4.cross-slide/cross-slide16.png
+
+|
