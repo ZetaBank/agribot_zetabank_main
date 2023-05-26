@@ -297,6 +297,7 @@ Step 3: Secure the belts
 
 Step 4: Equalize the gantry
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 - To equalize the gantry, first ensure that the x-axis motors are unpowered.
 
 - For first time installation this will always be the case because we haven’t yet added the wires or electronics!
