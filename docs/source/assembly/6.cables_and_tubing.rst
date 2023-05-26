@@ -444,3 +444,41 @@ Step 7: Snap in the remaining tabs
 
 |
 
+X-Axis Motors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Step 1: Connect the X1 motor and encoder cables
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Connect the X1 motor and encoder cables (highlighted orange in the image below) to the X1 motor and encoder on the right side of AgriBot (when looking at the device from the back).
+
+- The electronics box will be attached to this side in a later step.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing42.png
+
+|
+
+Step 2: Connect the X2 motor and encoder cables
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Connect the X2 motor and encoder cables (highlighted orange in the image below) to the X2 motor and encoder on the left side of AgriBot (when looking at the device from the back) by feeding the cables through the slots in all of the horizontal cable carrier supports along the gantry main beam.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing43.png
+
+|
+
+Lighting
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Install the light strip
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Feed the LED strip (highlighted orange in the image below) through the horizontal cable carrier supports on the gantry.
+
+- You can secure the end of the strip to the final cable carrier support using a zip tie.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing44.png
+
+|
+
+- In a few steps from now, you will plug the LED light strip into the Agriduino.
