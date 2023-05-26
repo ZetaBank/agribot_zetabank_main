@@ -1,2 +1,183 @@
 Cables and Tubing
 ===================
+- Installing the cables and tubing through FarmBot’s cable carriers can be a tedious process.
+
+- Take your time when installing the cables to ensure you complete this part of the assembly correct the first time, otherwise it might become frustrating if you need to re-do anything.
+
+Cable carrier reference
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
++---------+-----------------------+-----------------------+
+|  Axis   |   Size (85 links)     |   Size (160 links)    |
++=========+=======================+=======================+
+|    X    | 15mm x 20mm x 1700mm  | 15mm x 20mm x 3200mm  |
+|         |      (85 links)       |     (160 links)       |
++---------+-----------------------+-----------------------+
+|    Y    | 15mm x 50mm x 1700mm  | 15mm x 50mm x 3200mm  |
+|         |      (85 links)       |     (160 links)       |
++---------+-----------------------+-----------------------+
+|    Z    | 15mm x 50mm x 740mm   | 15mm x 50mm x 740mm   |
+|         |      (37 links)       |     (37 links)        |
++---------+-----------------------+-----------------------+
+
+|
+
+Motor and encoder cable reference
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
++---------+-------+-------+
+|  Axis   |  X1   |  X2   |
++=========+=======+=======+
+|    X    | 0.7m  | 2.3m  |
++---------+-------+-------+
+|    X    | 0.7m  | 3.8m  |
++---------+-------+-------+
+|    Y    | 2.7m  | 4.2m  |
++---------+-------+-------+
+|   ZY    | 2.6m  | 4.1m  |
++---------+-------+-------+
+|   ZZ    | 1.8m  | 1.8m  |
++---------+-------+-------+
+
+|
+
+Z-Axis Cable Carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Step 1: Prepare the cable carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Remove all of the snap-in tabs from the z-axis cable carrier.
+
+- The z-axis cable carrier is the shortest cable carrier in the kit.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing1.png
+
+|
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing2.png
+
+|
+
+Step 2: Orient the cable carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- There is only one orientation that the z-axis cable carrier mounts to the cross-slide and z-axis, and it is determined by the orientation of the end pieces.
+
+- Inspect the images below to see how the cable carrier will be mounted, but do not attach it at this time.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing3.png
+
+|
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing4.png
+
+|
+
+Step 3: Lay everything into the cable carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Keeping the mounting orientation of the cable carrier in mind, lay the following items into the open cable carrier.
+
+- The cross-slide end of all items should be sticking out from the cross-slide end of the cable carrier by approximately 5cm.
+
+- This will leave the appropriate remaining length of each item sticking out from the z-axis end of the cable carrier.
+
++-----------------------------+-------------------------------+
+|            Item             |  Cross-slide end description  |
++=============================+===============================+
+| Z-axis water tube           |            Either             |
+| (0.95m long)                |                               |
++-----------------------------+-------------------------------+
+| Z-axis UTM cable            |  End with 90-degree connector |
+| (1.0m long)                 |                               |
++-----------------------------+-------------------------------+
+| Camera                      |  End with 90-degree connector |
+| (1.0m long)                 |                               |
++-----------------------------+-------------------------------+
+| Z vacuum pump cable         |  End with 90-degree connector |
+| (1.0m long)                 |                               |
++-----------------------------+-------------------------------+
+| ZZ motor cable              |  End with 90-degree connector |
+| (1.8m long)                 |                               |
++-----------------------------+-------------------------------+
+| ZZ encoder cable            |  End with 90-degree connector |
+| (1.8m long)                 |                               |
++-----------------------------+-------------------------------+
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing5.png
+
+|
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing6.png
+
+|
+
+Step 4: Snap in some tabs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Snap in three cable carrier tabs at both ends of the cable carrier, and a handful more spread throughout the middle so that as you mount the assembly, the cables and tubing will stay in place.
+
+- Do not snap in all of the tabs at this time because that will make it difficult to make adjustments if needed.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing7.png
+
+|
+
+Step 5: Mount the cable carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Carefully drape the cable carrier assembly into position.
+
+- Attach the cross-slide end of the cable carrier to the cross-slide using two M5 x 30mm screws, M5 flange locknuts, and the cable carrier spacer block.
+
+- The screws should thread firmly through the cable carrier end piece.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing8.png
+
+|
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing9.png
+
+|
+
+- Now attach the z-axis end of the cable carrier to the lowest vertical cable carrier support on the z-axis using two M5 x 16mm screws and M5 flange locknuts.
+
+- The screws should thread firmly through the cable carrier end piece.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing10.png
+
+|
+
+Step 6: Connect the z-axis motor and encoder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Feed the ZZ motor and encoder cables up through the slots in the vertical cable carrier supports, and then through the slot in the z-axis motor mount.
+
+- Then connect the cables to the motor and encoder.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing11.png
+
+|
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing12.png
+
+|
+
+Step 7: Add the vertical motor housing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Attach the vertical motor housing to the z-axis extrusion using M5 x 10mm screws and tee nuts.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing13.png
+
+|
+
+Step 8: Snap in the remaining tabs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Once everything is situated well, snap-in the remaining cable carrier tabs, ensuring that you maintain organization of the cables and tube.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing14.png
+
+|
