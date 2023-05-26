@@ -1,6 +1,6 @@
 Cables and Tubing
 ===================
-- Installing the cables and tubing through FarmBot’s cable carriers can be a tedious process.
+- Installing the cables and tubing through AgriBot’s cable carriers can be a tedious process.
 
 - Take your time when installing the cables to ensure you complete this part of the assembly correct the first time, otherwise it might become frustrating if you need to re-do anything.
 
@@ -360,6 +360,87 @@ Step 10: Connect the y-axis motor and encoder
 |
 
 .. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing33.png
+
+|
+
+X-Axis Cable Carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Step 1: Prepare the cable carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Remove all of the snap-in tabs from the x-axis cable carrier.
+
+- Note that the x-axis and y-axis cable carriers are the same length, but the x-axis cable carrier is narrower than the y-axis one.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing34.png
+
+|
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing35.png
+
+|
+
+Step 2: Orient the cable carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- There is only one orientation that the x-axis cable carrier mounts to the gantry and tracks, and it is determined by the orientation of the end pieces.
+
+- Lay the cable carrier onto the track’s horizontal cable carrier supports to ensure you have it correctly oriented. Do not attach it at this time.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing36.png
+
+|
+
+Step 3: Lay everything into the cable carrier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Disconnect the power supply cable from the power supply.
+
+- Lay the x-axis water tube and the power supply cable into the open x-axis cable carrier.
+
+- The gray connector of the power supply cable should extend beyond the gantry-mounted cable carrier end by about 50cm so that it can plug into the Agriduino.
+
+- The water tube should be extended the same distance.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing37.png
+
+|
+
+Step 4: Snap in some tabs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Snap in three cable carrier tabs at both ends of the cable carrier, and a few more spread throughout the middle of the cable carrier so the cable and tube stay in place.
+
+- You do not want to snap in all of the tabs at this time because that will make it difficult to make adjustments if needed.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing38.png
+
+|
+
+Step 5: Mount the cable carrier to the gantry
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Attach the x-axis cable carrier to the 30mm horizontal cable carrier mount using two M3 x 16mm flat head screws and M3 locknuts.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing39.png
+
+|
+
+Step 6: Mount the cable carrier to the tracks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Attach the other end of the x-axis cable carrier to the 30mm horizontal cable carrier support nearest the middle of the tracks using two M3 x 16mm flat head screws and M3 locknuts.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing40.png
+
+|
+
+Step 7: Snap in the remaining tabs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Once everything is situated well, snap-in the remaining cable carrier tabs, ensuring that you maintain organization of the cable and tube.
+
+.. thumbnail:: /_images/assembly/6.cables_and_tubing/cables_and_tubing41.png
 
 |
 
