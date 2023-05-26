@@ -7,7 +7,7 @@ Electronics
 
 - The Agriduino microcontroller uses Arduino architecture and it communicates with the Raspberry Pi using a G-code like language.
 
-- The Agriduino controls the stepper drivers and motors, as well as the ATM and peripherals. The Agriduino provides power and control to all the electronic components of the AgriBot.
+- The Agriduino controls the stepper drivers and motors, as well as the UTM and peripherals. The Agriduino provides power and control to all the electronic components of the AgriBot.
 
 - The board has a layout and connectors that are optimized for AgriBot’s various peripherals and motor requirements.
 

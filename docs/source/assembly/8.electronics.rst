@@ -7,7 +7,7 @@ Electronics
 
 - The Agriduino microcontroller uses Arduino architecture and it communicates with the Raspberry Pi using a G-code like language.
 
-- The Agriduino controls the stepper drivers and motors, as well as the ATM and peripherals.
+- The Agriduino controls the stepper drivers and motors, as well as the UTM and peripherals.
 
 - The Agriduino provides power and control to all the electronic components of the AgriBot.
 
@@ -85,10 +85,10 @@ Step 4: Plug in the camera
 
 |
 
-Step 5: Plug in the ATM cable
+Step 5: Plug in the UTM cable
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Plug in the ATM cable to the Agriduino. The connector will only fit in one direction.
+- Plug in the UTM cable to the Agriduino. The connector will only fit in one direction.
 
 .. thumbnail:: /_images/assembly/8.electronics/electronics10.png
 
@@ -114,7 +114,7 @@ Step 7: Insert the supergland
 
 |
 
-- Organize and position the cables into the supergland. From left to right, the cables should be: camera, ATM, motors, encoders, peripherals, power supply.
+- Organize and position the cables into the supergland. From left to right, the cables should be: camera, UTM, motors, encoders, peripherals, power supply.
 
 - Once the cables are all inserted into the first supergland half, gently insert the second half of the supergland into the slot in the electronics box.
 

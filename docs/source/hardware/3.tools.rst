@@ -1,11 +1,11 @@
 Tools
 ===================
 
-- The AgriBot Universal Tool Mount (ATM) allows our top-of-the-line machine to mount and dismount a variety of lightweight tools — whichever one is appropriate for the task at hand (seeding, watering, weeding, etc).
+- The AgriBot Universal Tool Mount (UTM) allows our top-of-the-line machine to mount and dismount a variety of lightweight tools — whichever one is appropriate for the task at hand (seeding, watering, weeding, etc).
 
 - Using three neodymium ring magnets, tools are magnetically held in place during operation, but can be automatically dismounted in a toolbay and stored when not in use.
 
-- Once a tool has been mounted, AgriBot can power it up and communicate with it using the 12 gold-plated pogo pins inside the ATM.
+- Once a tool has been mounted, AgriBot can power it up and communicate with it using the 12 gold-plated pogo pins inside the UTM.
 
 - The stock connections include ground, 5v, 24v, as well as analog and digital I/O. Meanwhile, the remaining electrical connections are available for custom tooling such as specialized sensors or low power motorized implements.
 
