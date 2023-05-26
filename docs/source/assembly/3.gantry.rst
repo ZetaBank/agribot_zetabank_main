@@ -225,7 +225,6 @@ Step 7: Attach the x-axis cable carrier mount
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Use two M5 x 10mm screws and tee nuts to attach the aluminum 35mm cable carrier mount to the bottom of the left gantry column.
 
-
 .. thumbnail:: /_images/assembly/3.gantry/gantry24.png
 
 |
@@ -244,9 +243,19 @@ Step 1: Attach the gantry motors
 
 - Repeat for the second motor on the other gantry corner bracket.
 
+.. thumbnail:: /_images/assembly/3.gantry/gantry25.png
+
+|
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry26.png
+
+|
+
 - Slide pulleys onto the motor shafts and tighten the two set screws (pre-inserted) with the 2mm hex driver.
 
 - Make sure that the setscrews contact the flat areas on the motor shafts.
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry27.png
 
 |
 
@@ -258,6 +267,12 @@ Step 2: Feed the belts
 - Grab the ends of the belt at the bottom of the gantry column and feed them under the V-wheels of the gantry wheel plate, then along the top of the track extrusions to the ends of the tracks.
 
 - The flat side of the belt should be in contact with the V-wheels.
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry28.png
+
+|
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry29.png
 
 |
 
@@ -271,6 +286,12 @@ Step 3: Secure the belts
 - Then repeat for the second x-axis belt on the other side of the AgriBot.
 
 - Trim or coil any extra belt, if desired.
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry30.png
+
+|
+
+.. thumbnail:: /_images/assembly/3.gantry/gantry31.png
 
 |
 
