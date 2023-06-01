@@ -5,6 +5,8 @@ Tools
 
 - The following documentation pages explain how to assemble and install all of these tools and more.
 
+.. thumbnail:: /_images/assembly/7.tools/tools1.jpg
+
 |
 
 Universal Tool Mount
@@ -19,6 +21,14 @@ Universal Tool Mount
     - Passageways for water, liquid amendments (eg: fertilizer), and vacuum or compressed air to pass through from the UTM (and the rest of AgriBot) to the tool.
 
     - 12 pogo pins that make electrical connections with tools.
+
+.. thumbnail:: /_images/assembly/7.tools/tools2.jpg
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools3.jpg
+
+|
 
 Pin mapping
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -66,6 +76,8 @@ Step 1: Install the UTM onto the Z-axis
 
 - Tighten the two screws with the 3mm hex driver.
 
+.. thumbnail:: /_images/assembly/7.tools/tools4.png
+
 |
 
 Step 2: Connect the UTM Cable
@@ -79,10 +91,26 @@ Step 2: Connect the UTM Cable
 
 |
 
+.. thumbnail:: /_images/assembly/7.tools/tools5.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools6.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools7.png
+
+|
+
 Step 3: Connect the Water Tube
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Push the water tube onto the M5 barb on top of the UTM that is closest to the z-axis extrusion.
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools8.png
 
 |
 
