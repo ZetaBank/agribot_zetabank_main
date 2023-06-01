@@ -1,0 +1,63 @@
+General Maintenance
+===========================
+
+Keep AgriBot clean
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- AgriBot is a farmer that works and lives all day and night outside with the rain, sun, bugs, birds, and dirt. At the same time, AgriBot is a precision CNC machine with a lot of parts that allow it to move with millimeter accuracy to grow your food.
+
+- Most would say these things can’t co-exist. But they can with regular cleaning of your device.
+
+|
+
+Tighten loose screws
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Every three months, inspect your hardware for loose screws.
+
+- You can do this by grabbing a component such as an extrusion and attempting to wiggle it with a small amount of force.
+
+- If you can feel or hear anything rattling, a screw somewhere needs to be tightened.
+
+- Use the appropriate wrench to tighten any screws that you find to be loose.
+
+|
+
+Keep eccentric spacers properly adjusted
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- The eccentric spacers are used for making fine adjustments to the spacing between the v-wheels on the gantry and cross-slide.
+
+- This spacing is critical for AgriBot to move smoothly and wobble-free.
+
+- Over time, it is possible for your wheels to wear down slightly which can cause wobbling and a loss of precision in your device.
+
+- It is also possible for your wheels to ‘settle’ and fall out of their optimal positioning, which can also cause wobbling.
+
+|
+
+Keep belts tensioned
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- It is possible for the belts to stretch or slip over time which can lead to missed steps, premature wearing, a gantry that binds on the tracks, as well as a loss of precision in AgriBot’s movements.
+
+|
+
+Inspect for damage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Every three months, inspect your hardware for visible damage such as corrosion, bending, or cracking of components.
+
+- Under normal circumstances your hardware will be just fine because it is designed to withstand normal operating forces and built with corrosion and UV resistant materials.
+
+- However, certain conditions and accidents can cause damage such as:
+
+    - An unusually corrosive environment such as that near an ocean.
+
+    - High temperature differences between the day and night can cause cracking.
+
+    - Accidental impacts with the hardware that causes something to bend or break, such as tripping on the tracks, falling branches, children.
+
+- If you notice any damaged parts, promptly replace the components. If the component is not replaced, you risk damaging other components out of negligence.
+
+|

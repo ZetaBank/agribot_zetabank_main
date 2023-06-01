@@ -24,3 +24,11 @@ It is suitable for growing food with the highest level of precision, running com
 
     assembly/1.preparation
     assembly/0.index
+
+.. toctree:: 
+    :caption: Maintenance
+    :maxdepth: 1
+    :hidden:
+    :titlesonly: 
+
+    maintenance/0.index
