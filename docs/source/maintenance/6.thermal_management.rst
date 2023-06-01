@@ -29,7 +29,7 @@ Checking the temperature
 +---------+-------------------------------------------------------------------------+
 |   Red   |  The CPU temperature is hotter than the desired range (75°C and above)  |
 +---------+-------------------------------------------------------------------------+
-|  Gray   |  The CPU temperature is unknown because FarmBot is offline.             |
+|  Gray   |  The CPU temperature is unknown because AgriBot is offline.             |
 +---------+-------------------------------------------------------------------------+
 
 |
@@ -49,7 +49,7 @@ Component temperature ratings
 +===============================+================================+
 |        Raspberry Pi           |   0°C to 70°C (32°F to 158°F)  |
 +-------------------------------+--------------------------------+
-|          Farmduino            |  -20°C to 85°C (-4°F to 185°F) |
+|          Agriduino            |  -20°C to 85°C (-4°F to 185°F) |
 +-------------------------------+--------------------------------+
 |      Stepper Drivers          |  -20°C to 85°C (-4°F to 185°F) |
 +-------------------------------+--------------------------------+
