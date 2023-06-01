@@ -133,14 +133,26 @@ Step 1: Attach the camera to the z-axis
 
 - Then attach the camera and mounts to the z-axis using the two M5 x 10mm screws and a 40mm nut bar.
 
+.. thumbnail:: /_images/assembly/7.tools/tools9.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools10.png
+
 |
 
 Seeder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 - The seeder tool works by using a vacuum pump to suction-hold a single seed at the end of a needle.
+
+.. thumbnail:: /_images/assembly/7.tools/tools11.png
+
+|
 
 Step 1: Selecting a luer lock needle
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 - AgriBot comes with different luer lock needle sizes so that you can experiment and find the best needle for your needs.
 
 +-------+-------+-------------------+----------------------------+
@@ -159,6 +171,8 @@ Step 1: Selecting a luer lock needle
 
 - At any time you can quickly swap the needle out for another size or replace a damaged one.
 
+.. thumbnail:: /_images/assembly/7.tools/tools12.png
+
 |
 
 Step 2: Connect the vacuum tubes and filter
@@ -176,6 +190,18 @@ Step 2: Connect the vacuum tubes and filter
 
 |
 
+.. thumbnail:: /_images/assembly/7.tools/tools13.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools14.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools15.png
+
+|
+
 Step 3: Wire up the vacuum pump
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -189,6 +215,12 @@ Step 3: Wire up the vacuum pump
 
 - If you cannot see the colors of the wires, carefully peel back the black heatshrink covering the whole cable so that you can correctly identify the individual wire colors.
 
+.. thumbnail:: /_images/assembly/7.tools/tools16.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools17.png
+
 |
 
 Step 4: Attach the seed trough holder
@@ -199,6 +231,12 @@ Step 4: Attach the seed trough holder
 - Then mount the assembly to the left gantry column using a 40mm nut bar and two M5 x 10mm screws.
 
 - Place the two seed troughs into the holder. Optionally, you may store up to three luer lock needles in the holder as well.
+
+.. thumbnail:: /_images/assembly/7.tools/tools18.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools19.png
 
 |
 
@@ -220,6 +258,10 @@ Seed bins
 
 - Then run a planting sequence from the web app with the corresponding seed bin sequence and location.
 
+.. thumbnail:: /_images/assembly/7.tools/tools20.jpg
+
+|
+
 - If desired, you can mix a variety of seed types into one seed bin and have AgriBot plant whatever it happens to grab.
 
 - Keep in mind though that AgriBot will have no way of knowing which seeds it grabs, so only use this technique when you will be taking care of all those plants identically.
@@ -235,6 +277,8 @@ Seed trays
 
 - They are best used when planting many different crops, and when the number of seeds per hole needs to be strictly controlled.
 
+.. thumbnail:: /_images/assembly/7.tools/tools21.jpg
+
 |
 
 Seed troughs
@@ -243,6 +287,8 @@ Seed troughs
 - The seed troughs are small seed containers that are stored in the seed trough holder, which is mounted on the gantry.
 
 - This allows AgriBot to bring seeds with it along the x-axis, reducing the time to sow an entire bed.
+
+.. thumbnail:: /_images/assembly/7.tools/tools22.jpeg
 
 |
 
