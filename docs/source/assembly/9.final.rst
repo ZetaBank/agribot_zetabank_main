@@ -37,6 +37,8 @@ Join the community forum
 
 Signing up is completely free and will allow you to chat with others about best practices, modification ideas, troubleshooting issues, gardening tips and tricks, and to be inspired by what everyone is growing.
 
+.. thumbnail:: /_images/assembly/9.final/final1.jpeg
+
 |
 
 Stay in touch
@@ -50,6 +52,10 @@ Stay in touch
 
 |
 
+.. thumbnail:: /_images/assembly/9.final/final2.jpg
+
+|
+
 Storing extra parts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -58,6 +64,10 @@ Storing extra parts
 - We recommend keeping everything that is left over in a box along with the getting started guide, camera calibration card, the microSD card adpater, and all of the assembly tools.
 
 - For illustrative purposes only. Not all kits will have these exact parts left over after assembly.
+
+|
+
+.. thumbnail:: /_images/assembly/9.final/final3.png
 
 |
 
