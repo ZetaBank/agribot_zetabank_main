@@ -297,6 +297,8 @@ Watering Nozzle
 
 - The watering nozzle accepts a concentrated stream of water coming from the UTM and turns it into a gentle shower for your plants.
 
+.. thumbnail:: /_images/assembly/7.tools/tools23.jpg
+
 |
 
 Step 1: Assemble the solenoid valve and pressure regulator
@@ -305,6 +307,16 @@ Step 1: Assemble the solenoid valve and pressure regulator
 - Insert rubber gaskets into the female ends of the pressure regulator, the garden hose to barb adapter, and both NPT to barb adapters.
 
 - Then screw one of the NPT to barb adapters onto the solenoid valve inlet, the pressure regulator onto the solenoid valve outlet, and the second NPT to barb adapter onto the pressure regulator.
+
+.. thumbnail:: /_images/assembly/7.tools/tools24.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools25.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools26.png
 
 |
 
@@ -317,6 +329,12 @@ Step 2: Attach the solenoid valve
 
 - Cables should be routed between the mount and the box.
 
+.. thumbnail:: /_images/assembly/7.tools/tools27.jpeg
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools28.png
+
 |
 
 Step 3: Wire up the solenoid valve
@@ -326,6 +344,8 @@ Step 3: Wire up the solenoid valve
 
 - Note: in a few steps from now, you will connect the other end of the cable to the Agriduino.
 
+.. thumbnail:: /_images/assembly/7.tools/tools29.png
+
 |
 
 Step 4: Connect the tubing
@@ -334,6 +354,12 @@ Step 4: Connect the tubing
 - Push the water tube coming from the y-axis cable carrier onto the upper NPT to barb adapter.
 
 - Then push the water tube coming from the x-axis cable carrier (where it is mounted to the gantry) onto the lower NPT to barb adapter.
+
+.. thumbnail:: /_images/assembly/7.tools/tools30.png
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools31.png
 
 |
 
@@ -348,10 +374,18 @@ Step 5: Connect AgriBot to the water source
 
 |
 
+.. thumbnail:: /_images/assembly/7.tools/tools32.png
+
+|
+
 Rotary Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - The rotary tool features a 24 volt DC motor, interchangeable implements, and an adjustable motor angle allowing AgriBot to perform light duty weed whacking, soil surface milling, and drilling operations.
+
+.. thumbnail:: /_images/assembly/7.tools/tools33.png
+
+|
 
 - This tool, and AgriBot in general, is designed for removing weeds early and often such that the weeds are always small, young, and fragile, and therefore easily removed.
 
@@ -409,6 +443,8 @@ Changing the motor angle
 
 - Position the motor at the desired angle and retighten the screws.
 
+.. thumbnail:: /_images/assembly/7.tools/tools34.png
+
 |
 
 Using the shaft extension
@@ -419,6 +455,8 @@ Using the shaft extension
 - To use the shaft extension, remove any implement currently being used.
 
 - Screw the shaft extension onto the motor and then re-attach the implement.
+
+.. thumbnail:: /_images/assembly/7.tools/tools35.png
 
 |
 
@@ -431,12 +469,18 @@ Using the drill chuck
 
 - Then screw the drill chuck adapter onto the motor, followed by the drill chuck.
 
+.. thumbnail:: /_images/assembly/7.tools/tools36.png
+
 |
 
 Weeder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - The weeder tool works by pushing small weeds under the soil surface and disrupting their fragile root systems.
+
+.. thumbnail:: /_images/assembly/7.tools/tools37.png
+
+|
 
 - This tool, and AgriBot in general, is designed for removing weeds early and often such that the weeds are always small, young, and fragile, and therefore easily removed.
 
@@ -470,12 +514,18 @@ Soil Sensor
 
 - The soil sensor works by driving the tool vertically into the soil so that the soil properties can be read by the soil sensor PCB.
 
+.. thumbnail:: /_images/assembly/7.tools/tools38.png
+
+|
+
 Toolbays
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - AgriBot Genesis comes with two toolbays that hold three tools, seed bins, or seed trays each.
 
 - These simple hardware components act as holsters for your tools and are shaped in such a way that AgriBot can automatically mount and dismount tools for the task at hand.
+
+.. thumbnail:: /_images/assembly/7.tools/tools39.jpg
 
 |
 
@@ -484,11 +534,18 @@ Step 1: Attach a toolbay to the supporting infrastructure
 
 - Position and attach a toolbay to your supporting infrastructure using six wood screws.
 
+.. thumbnail:: /_images/assembly/7.tools/tools40.jpg
+
+|
+
+.. thumbnail:: /_images/assembly/7.tools/tools41.jpg
+
 |
 
 Step 2: Repeat for the second toolbay
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. thumbnail:: /_images/assembly/7.tools/tools42.jpg
 |
 
 Step 3: Insert the tools
@@ -497,6 +554,8 @@ Step 3: Insert the tools
 - Place your tools and seed containers in any slot you want.
 
 - Just remember that you will need to log in to the web app and let AgriBot know what tool is where!
+
+.. thumbnail:: /_images/assembly/7.tools/tools43.jpg
 
 |
 
