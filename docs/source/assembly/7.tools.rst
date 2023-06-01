@@ -12,7 +12,7 @@ Tools
 Universal Tool Mount
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- The Universal Tool Mount (UTM) allows AgriBot Genesis to automatically switch tools in order to perform different operations.
+- The Universal Tool Mount (UTM) allows AgriBot to automatically switch tools in order to perform different operations.
 
 - It is a plastic component that mounts to the z-axis aluminum extrusion using two M5 screws and tee nuts. It features:
 
@@ -411,7 +411,7 @@ Safety considerations
 +-----------------------------+------------------+
 |          Equipment          |  Power (watts)   |
 +=============================+==================+
-| AgriBot Genesis Rotary Tool |  Less than 10    |
+|     AgriBot Rotary Tool     |  Less than 10    |
 +-----------------------------+------------------+
 |    Hand-held Dremel tool    |      100+        |
 +-----------------------------+------------------+
@@ -521,7 +521,7 @@ Soil Sensor
 Toolbays
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- AgriBot Genesis comes with two toolbays that hold three tools, seed bins, or seed trays each.
+- AgriBot comes with two toolbays that hold three tools, seed bins, or seed trays each.
 
 - These simple hardware components act as holsters for your tools and are shaped in such a way that AgriBot can automatically mount and dismount tools for the task at hand.
 
