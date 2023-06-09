@@ -138,7 +138,7 @@ Disconnecting and draining water
 
 - In this case the owner was lucky and they were able to catch the leak before more property damage could happen.
 
-.. thumbnail:: /_images/mainternance/6.thermal_management/thermal_management2.jpg
+.. thumbnail:: /_images/maintenance/6.thermal_management/thermal_management2.jpg
 |
 
 - Provided that you winterize the AgriBot, it will be fine outside in the winter time in cold climates.
@@ -154,5 +154,5 @@ Locking AgriBot in place
 
 - This will prevent the AgriBot from being blown around in high winter winds.
 
-.. thumbnail:: /_images/mainternance/6.thermal_management/thermal_management3.jpeg
+.. thumbnail:: /_images/maintenance/6.thermal_management/thermal_management3.jpeg
 |
