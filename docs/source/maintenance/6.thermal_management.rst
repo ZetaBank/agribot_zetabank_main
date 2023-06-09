@@ -14,7 +14,7 @@ Checking the temperature
 
 - It is important to protect the CPU and other electronics from excessively high temperatures, so we recommend monitoring the temperature using the real-time CPU temperature information located in the connectivity popup.
 
-.. thumbnail:: /_images/mainternance/6.thermal_management/thermal_management1.png
+.. thumbnail:: /_images/maintenance/6.thermal_management/thermal_management1.png
 
 |
 
