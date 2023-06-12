@@ -40,3 +40,11 @@ It is suitable for growing food with the highest level of precision, running com
     :titlesonly: 
 
     troubleshooting/0.index
+
+.. toctree:: 
+    :caption: Reference Docs
+    :maxdepth: 1
+    :hidden:
+    :titlesonly: 
+
+    reference_docs/0.index
