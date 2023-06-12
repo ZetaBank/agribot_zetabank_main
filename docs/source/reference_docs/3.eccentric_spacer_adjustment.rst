@@ -9,7 +9,7 @@ Eccentric Spacer Adjustment
 
 - If the spacing is too great, then the connection will be wobbly and loose.
 
-- Let’s adjust the eccentric spacers throughout FarmBot to be just right.
+- Let’s adjust the eccentric spacers throughout AgriBot to be just right.
 
 |
 
