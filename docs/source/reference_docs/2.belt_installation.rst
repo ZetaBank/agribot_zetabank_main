@@ -1,0 +1,42 @@
+Belt Installation
+===========================
+
+Step 1: Slide on a belt sleeve
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Slide a belt sleeve onto the belt.
+
+.. thumbnail:: /_images/reference_docs/2.belt_installation/belt_installation1.png
+
+|
+
+Step 2: Route the belt through the clip
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Route the belt down through the slot in the belt clip and then wrap the belt back under itself.
+
+- The teeth from the short end of the belt should engage with the teeth on the long end.
+
+.. thumbnail:: /_images/reference_docs/2.belt_installation/belt_installation2.png
+
+|
+
+Step 3: Secure the belt with the sleeve
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Slide the belt sleeve over both ends of the belt.
+
+- This may take a small bit of force and some wiggling.
+
+.. thumbnail:: /_images/reference_docs/2.belt_installation/belt_installation3.png
+
+|
+
+Step 4: Mount the clip
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Mount the clip to the end of an extrusion with a 20mm nut bar and M5 x 10mm screws.
+
+.. thumbnail:: /_images/reference_docs/2.belt_installation/belt_installation4.png
+
+|
