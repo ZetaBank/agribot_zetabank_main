@@ -7,3 +7,6 @@ Here are the contents of this section:
 
     1.basic_tool_hardware
     2.belt_installation
+    3.eccentric_spacer_adjustment
+    4.agriduino_peripheral_pin_numbers
+    5.pinout_references
