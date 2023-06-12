@@ -1,5 +1,4 @@
 Are my encoders working?
-
 ===================
 
 - Problem description: AgriBot is having trouble with measuring movements.

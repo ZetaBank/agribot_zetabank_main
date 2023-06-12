@@ -1,5 +1,4 @@
 Water Pressure
-
 ===================
 
 - AgriBot is designed to work with typical municipal water pressure between 40 PSI and 55 PSI (275kPa and 379kPa).
