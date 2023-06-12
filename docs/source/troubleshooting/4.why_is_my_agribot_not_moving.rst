@@ -30,6 +30,8 @@ Why is my AgriBot not moving?
 
 - Refer to the connectivity diagnosis codes page for additional help troubleshooting connectivity issues.
 
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving1.png
+
 |
 
 2. Double check your firmware selection
@@ -40,6 +42,10 @@ Why is my AgriBot not moving?
 - If you incorrectly specify the model of your AgriBot, you will be able to connect and you will have some limited functionality.
 
 - However, the motors will likely not work.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving2.png
+
+|
 
 - To change the model and firmware, go to the firmware section of the settings panel and select the correct firmware for your AgriBot model.
 
@@ -64,6 +70,8 @@ Why is my AgriBot not moving?
 
 - Tighten up the whole gantry structure by tightening the M5 screws at the gantry wheel plates and gantry corner brackets.
 
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving3.png
+
 |
 
 4. Equalize the gantry
@@ -77,6 +85,10 @@ Why is my AgriBot not moving?
 
 - These issues all decrease the overall reliability of the AgriBot system and decrease the lifespan of the components.
 
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving4.jpg
+
+|
+
 - Test the gantry:
 
     1. To see if your gantry is equalized, ensure that the x-axis motors are unpowered by unplugging the motor cable and the rotary encoder cables from both the X1 and X2 motors,
@@ -89,12 +101,18 @@ Why is my AgriBot not moving?
     
     5. Once you have removed the resistance from the tracks, you will need to re-connect the motor and rotary encoder cables. Then you will re-calibrate your AgriBot from the web app.
 
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving5.jpg
+
 |
 
 5. Adjust the belt tension
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - It is possible for the belts to stretch or slip over time which can lead to missed steps, premature wearing, a gantry that binds on the tracks, as well as a loss of precision in AgriBot’s movements.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving6.jpg
+
+|
 
 - Procedure for adjusting the belt tension:
 
@@ -107,6 +125,8 @@ Why is my AgriBot not moving?
     4. Make sure to check all three belts: the two along the tracks, and the one across the gantry main beam. The belts should not be under extreme tension. If they are, AgriBot’s motors will have difficulty in moving and will miss steps. Use a small amount of tension - just enough so that there is no slack in the system.
     
     5. Re-equalize the gantry to prevent binding.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving7.png
 
 |
 
@@ -124,6 +144,8 @@ Why is my AgriBot not moving?
 - Follow our guide for adjusting the eccentric spacers.
 
 - After the eccentric spacers are adjusted, put the gantry back onto the tracks, re-feed the belts through the drivetrain, and secure the belts back into place for normal operation.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving8.png
 
 |
 
@@ -147,6 +169,9 @@ Why is my AgriBot not moving?
 - If you wish to restore any of these settings back to their default value, you can see the default value in the setting’s tooltip by hovering over the  icon.
 
 - You can also restore all settings.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving9.bmp
+|
 
 - If you are getting motor stalls the AgriBot will stop for a second and then continue.
 
