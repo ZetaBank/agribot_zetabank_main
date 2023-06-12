@@ -1,0 +1,62 @@
+Water Pressure
+
+===================
+
+- AgriBot is designed to work with typical municipal water pressure between 40 PSI and 55 PSI (275kPa and 379kPa).
+
+- If the water pressure supplied to the AgriBot is significantly higher or lower than this range, you may experience one of the following issues with the AgriBot watering system.
+
++------------------------------------------------------------------------+------------------------+
+|                              Symptom                                   |         Problem        |
++========================================================================+========================+
+| There is leaking at one or more connections between the garden hose    |  Pressure is too high  |
+| and the solenoid valve.                                                |                        |
++------------------------------------------------------------------------+------------------------+
+| The X-axis water tube is getting blown off one or both of the brass    |   ressure is too high  |
+| barbed adapters.                                                       |                        |
++------------------------------------------------------------------------+------------------------+
+| The solenoid valve is not opening when activated, resulting in no      |  Pressure is too low   |
+| water flow.                                                            |                        |
++------------------------------------------------------------------------+------------------------+
+| With the solenoid valve activated, water flows only partially through  |  Pressure is too low   |
+| the tubing located in the Y-axis and Z-axis cable carriers, resulting  |                        |
+| in no water flow to the AgriBot watering nozzle.                       |                        |
++------------------------------------------------------------------------+------------------------+
+| With the solenoid valve activated, water flows very slowly through     |  Pressure is too low   |
+| the tubing system, resulting in very low flow through the AgriBot      |                        |
+| watering nozzle.                                                       |                        |
++------------------------------------------------------------------------+------------------------+
+
+|
+
+Pressure is too high
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- The AgriBot comes equipped with a black plastic water pressure regulator.
+
+- However, this component only regulates the water pressure downstream of the solenoid valve.
+
+- It does not regulate the pressure upstream of the valve.
+
+- If the incoming water pressure is much higher than the expected range, the water pressure will need to be reduced to the expected pressure range using an additional water pressure regulator upstream of the AgriBot (before the water reaches any of the AgriBot tubing).
+
+- Water pressure regulators are common in the plumbing industry and we suggest getting one with a pressure gauge so that you know what the output pressure is and so that you may control the water pressure getting to the AgriBot water supply tubes.
+
+- AgriBot Inc does not supply these water pressure regulators, but you can source one from Amazon or your local hardware store or RV service shop.
+
+- We suggest setting the output water pressure to 45 PSI (310kPa).
+
+.. thumbnail:: /_images/troubleshooting/6.water_pressure/water_pressure1.jpg
+
+|
+
+Pressure is too low
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Too low of water pressure may be caused by installing AgriBot at an elevation significantly higher than the garden hose tap, or if you are using a non-municipal water source such as a rain collection barrel.
+
+- To remedy the issue, consider installing a water pump and pressure tank upstream of the AgriBot to pressurize the incoming water supply to at least 25 PSI (172kPa), or devise another method to supply adequately pressurized water.
+
+.. thumbnail:: /_images/troubleshooting/6.water_pressure/water_pressure2.jpg
+
+|
