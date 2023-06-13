@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why is my AgriBot not moving? &mdash; ZetaBank - AgriBot Instruction Guide</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/toc_custom.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\css\lightbox.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/toc_custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\js\lightbox-plus-jquery.min.js"></script>
+        <script src="../_static/sphinxcontrib-images\LightBox2\lightbox2-customize\jquery-noconflict.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Are my encoders working?" href="5.are_my_encoders_working.html" />
+    <link rel="prev" title="Track Tolerance" href="3.track_tolerance.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            AgriBot Instruction Guide
+              <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.1.3
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Hardware</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../hardware/1.overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hardware/0.index.html">Features</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/2.safety.html">Safety</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/3.tools.html">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/4.electronics.html">Electronics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/5.questions.html">Frequently Asked Questions</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Assembly</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../assembly/1.preparation.html">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../assembly/0.index.html">Instruction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../assembly/2.tracks.html">Tracks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../assembly/3.gantry.html">Gantry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../assembly/4.cross-slide.html">Cross-Slide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../assembly/5.z-axis.html">Z-Axis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../assembly/6.cables_and_tubing.html">Cables and Tubing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../assembly/7.tools.html">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../assembly/8.electronics.html">Electronics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../assembly/9.final.html">Final Steps</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Maintenance</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../maintenance/0.index.html">Maintenance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/1.general_mainternance.html">General Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/2.track_mainternance.html">Track Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/3.gantry_maintenance.html">Gantry Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/4.utm_and_tool_maintenance.html">UTM and Tool Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/5.storing_agribot_for_winter.html">Storing AgriBot for Winter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/6.thermal_management.html">Thermal Management</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Troubleshooting</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="0.index.html">Troubleshooting</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="1.picking_up_seeds.html">Picking Up Seeds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2.z-axis_movements.html">Z-Axis Movements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3.track_tolerance.html">Track Tolerance</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Why is my AgriBot not moving?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="5.are_my_encoders_working.html">Are my encoders working?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.water_pressure.html">Water Pressure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="7.tool_verification.html">Tool Verification</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference Docs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference_docs/0.index.html">Reference Docs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/1.basic_tool_hardware.html">Basic Tool Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/2.belt_installation.html">Belt Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/3.eccentric_spacer_adjustment.html">Eccentric Spacer Adjustment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/4.agriduino_peripheral_pin_numbers.html">Farmduino Peripheral Pin Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/5.pinout_references.html">Pinout References</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Software</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../software/0.index.html">Software</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../software/1.overview.html">Software Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../software/2.install.html">Install AgriBot</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">AgriBot Instruction Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="0.index.html">Troubleshooting</a></li>
+      <li class="breadcrumb-item active">Why is my AgriBot not moving?</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/troubleshooting/4.why_is_my_agribot_not_moving.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="why-is-my-agribot-not-moving">
+<h1>Why is my AgriBot not moving?<a class="headerlink" href="#why-is-my-agribot-not-moving" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p class="linemarker linemarker-4">Problem description: AgriBot is having trouble with movements.</p></li>
+<li><p class="linemarker linemarker-6">This troubleshooting document guides you through a checklist of AgriBot settings, diagnostic tools, and hardware checks to help you get your AgriBot moving reliably.</p></li>
+<li><p class="linemarker linemarker-8">You will start out troubleshooting with simple actions.</p></li>
+<li><p class="linemarker linemarker-10">If these don’t work for you, you should continue through this guide and perform additional actions to troubleshoot your problem.</p></li>
+<li><p class="linemarker linemarker-12">Test your setup after completing each step to see if your problem is solved.</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="ensure-agribot-is-connected">
+<h2>1. Ensure AgriBot is connected<a class="headerlink" href="#ensure-agribot-is-connected" title="Permalink to this heading"></a></h2>
+<ul>
+<li><p class="linemarker linemarker-19">Your AgriBot must be connected to the internet and the web app to receive commands and download the resources you create such as sequences, plant locations, and events.</p></li>
+<li><p class="linemarker linemarker-21">If your bot is connected, the web app’s connectivity indicator should be  green.</p></li>
+<li><p class="linemarker linemarker-23">If your bot is not connected:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p class="linemarker linemarker-25">Confirm AgriBot is connected to the internet (via WiFi or ethernet).</p></li>
+<li><p class="linemarker linemarker-27">Confirm AgriBot is connected to the web app.</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="linemarker linemarker-29">The connectivity popup should show a code 31 diagnosis code when communication is functioning.</p></li>
+<li><p class="linemarker linemarker-31">Refer to the connectivity diagnosis codes page for additional help troubleshooting connectivity issues.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-e1386761-5f2b-4bc2-8a14-592d723fb42a"
+               href="../_images/why_is_my_agribot_not_moving11.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving11.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="double-check-your-firmware-selection">
+<h2>2. Double check your firmware selection<a class="headerlink" href="#double-check-your-firmware-selection" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-40">Double check that the model and firmware specified in the app match the actual model of your AgriBot.</p></li>
+<li><p class="linemarker linemarker-42">If you incorrectly specify the model of your AgriBot, you will be able to connect and you will have some limited functionality.</p></li>
+<li><p class="linemarker linemarker-44">However, the motors will likely not work.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-2f0bd142-b858-4edd-9b5e-ee0eb46ed51f"
+               href="../_images/why_is_my_agribot_not_moving21.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving21.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-50">To change the model and firmware, go to the firmware section of the settings panel and select the correct firmware for your AgriBot model.</p></li>
+<li><p class="linemarker linemarker-52">Then press the button.</p></li>
+<li><p class="linemarker linemarker-54">Flashing the firmware may take up to 2 minutes.</p></li>
+<li><p class="linemarker linemarker-56">Once complete, try issuing motor movement commands.</p></li>
+<li><p class="linemarker linemarker-58">If this doesn’t work, you might try re-flashing the microSD card with AgriBot OS.</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="tighten-up-gantry-connections">
+<h2>3. Tighten up gantry connections<a class="headerlink" href="#tighten-up-gantry-connections" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-65">Double check and tighten all of the screws holding the gantry together so there is no “play” in the system.</p></li>
+<li><p class="linemarker linemarker-67">The gantry needs to act as one rigid/stiff body.</p></li>
+<li><p class="linemarker linemarker-69">If there is some flex in the gantry structure it can cause delays in the movement as the structure flexes prior to the movement.</p></li>
+<li><p class="linemarker linemarker-71">Tighten up the whole gantry structure by tightening the M5 screws at the gantry wheel plates and gantry corner brackets.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-ac36497b-8f60-4ab6-beaf-72a24efdb4a0"
+               href="../_images/why_is_my_agribot_not_moving31.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving31.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="equalize-the-gantry">
+<h2>4. Equalize the gantry<a class="headerlink" href="#equalize-the-gantry" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-80">An equalized gantry is one that is exactly perpendicular to the tracks such that it is not crooked, and so that the gantry is not being torqued.</p></li>
+<li><p class="linemarker linemarker-82">The X-axis tracks need to be aligned.</p></li>
+<li><p class="linemarker linemarker-84">If they are out of alignment they can cause a crooked or torqued gantry, which can cause creaking, extra wear on the v-wheels and motors, and introduce a high amount of friction into the system.</p></li>
+<li><p class="linemarker linemarker-86">These issues all decrease the overall reliability of the AgriBot system and decrease the lifespan of the components.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-83defba8-16d1-494b-b3a6-cb6211188235"
+               href="../_images/why_is_my_agribot_not_moving41.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving41.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul>
+<li><p class="linemarker linemarker-92">Test the gantry:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p class="linemarker linemarker-94">To see if your gantry is equalized, ensure that the x-axis motors are unpowered by unplugging the motor cable and the rotary encoder cables from both the X1 and X2 motors,</p></li>
+<li><p class="linemarker linemarker-96">Gently push or pull on the gantry from the middle of the gantry main beam such that it moves slowly along the tracks about 30cm. This process will remove any torque on the gantry, and ensure it is not crooked. If you push or pull the gantry from one of the gantry columns, or anywhere that is not the middle of the main beam, then you will torque the gantry and make it crooked.</p></li>
+<li><p class="linemarker linemarker-98">It should be easy to push the gantry from one end of the x-axis to the other end. If you sense that there is resistance going back and forth along the tracks, you will need to adjust the tracks or adjust the eccentric spacers to remove the resistance.</p></li>
+<li><p class="linemarker linemarker-100">If you need to add a lubricant to lower the resistance at the V-wheels, use a dry lubricant such as powdered graphite. A dry lubricant will not collect dust or dirt and will not gum the wheels or bearings like liquid lubricants or grease will. Do not use a liquid lubricant on the belts, pulleys, or v-wheels.</p></li>
+<li><p class="linemarker linemarker-102">Once you have removed the resistance from the tracks, you will need to re-connect the motor and rotary encoder cables. Then you will re-calibrate your AgriBot from the web app.</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ul>
+<a class=""
+               data-lightbox="group-8664b898-7abd-4670-a44c-673cc5ff805e"
+               href="../_images/why_is_my_agribot_not_moving51.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving51.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="adjust-the-belt-tension">
+<h2>5. Adjust the belt tension<a class="headerlink" href="#adjust-the-belt-tension" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-111">It is possible for the belts to stretch or slip over time which can lead to missed steps, premature wearing, a gantry that binds on the tracks, as well as a loss of precision in AgriBot’s movements.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-0d35ef8a-f450-4650-b02b-656811b68cec"
+               href="../_images/why_is_my_agribot_not_moving61.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving61.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul>
+<li><p class="linemarker linemarker-117">Procedure for adjusting the belt tension:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p class="linemarker linemarker-119">Loosen the belt clip that holds the belt in place.</p></li>
+<li><p class="linemarker linemarker-121">Pull the clip to tension the belt - use a small amount of tension</p></li>
+<li><p class="linemarker linemarker-123">Re-tighten the clip.</p></li>
+<li><p class="linemarker linemarker-125">Make sure to check all three belts: the two along the tracks, and the one across the gantry main beam. The belts should not be under extreme tension. If they are, AgriBot’s motors will have difficulty in moving and will miss steps. Use a small amount of tension - just enough so that there is no slack in the system.</p></li>
+<li><p class="linemarker linemarker-127">Re-equalize the gantry to prevent binding.</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ul>
+<a class=""
+               data-lightbox="group-df400da2-4ac3-429b-b5f3-2c2cf0247e1f"
+               href="../_images/why_is_my_agribot_not_moving71.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving71.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="adjust-the-eccentric-spacers">
+<h2>6. Adjust the eccentric spacers<a class="headerlink" href="#adjust-the-eccentric-spacers" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-136">Eccentric spacers are used for making fine adjustments to the spacing between the v-wheels on either side of an aluminum extrusion.</p></li>
+<li><p class="linemarker linemarker-138">Adjusting this spacing is key to achieving smooth and wobble-free movement of the gantry across the tracks, the cross-slide across the gantry main beam, and the z-axis up and down the cross-slide.</p></li>
+<li><p class="linemarker linemarker-140">If the spacing between v-wheels is too little, then the extrusions will not fit between the v-wheels at all or there will be significant friction when moving.</p></li>
+<li><p class="linemarker linemarker-142">If the spacing is too great, then the connection will be wobbly and loose.</p></li>
+<li><p class="linemarker linemarker-144">Follow our guide for adjusting the eccentric spacers.</p></li>
+<li><p class="linemarker linemarker-146">After the eccentric spacers are adjusted, put the gantry back onto the tracks, re-feed the belts through the drivetrain, and secure the belts back into place for normal operation.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-f483966a-b3f2-4c3d-b50a-7cc331a8ca88"
+               href="../_images/why_is_my_agribot_not_moving81.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving81.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="change-the-motor-settings">
+<h2>7. Change the motor settings<a class="headerlink" href="#change-the-motor-settings" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-155">If you are having trouble with the movements of the AgriBot, adjust settings and reduce hardware resistance for motor stalls.</p></li>
+<li><p class="linemarker linemarker-157">You can reduce the hardware resistance by cleaning the tracks and ensuring there is no dirt or debris on belts or the pulleys.</p></li>
+<li><p class="linemarker linemarker-159">The stepper driver power should be last thing you should try to adjust because it’s difficult to adjust and easy to mess up.</p></li>
+<li><p class="linemarker linemarker-161">Another thing to remember when you are troubleshooting these NEMA 17 stepper motors is that the faster the step rate the lower the torque.</p></li>
+<li><p class="linemarker linemarker-163">This means that if you increase the minimum or maximum speed (mm/s) (AKA the step rate) you will decrease the torque and increase the likelihood of having the motor stall.</p></li>
+<li><p class="linemarker linemarker-165">More details on motor stalls are discussed in the next section of this document.</p></li>
+<li><p class="linemarker linemarker-167">The default settings provided are the recommended settings for the motor hardware.</p></li>
+<li><p class="linemarker linemarker-169">If you wish to restore any of these settings back to their default value, you can see the default value in the setting’s tooltip by hovering over the  icon.</p></li>
+<li><p class="linemarker linemarker-171">You can also restore all settings.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-7c5321bd-5664-4dfb-acdf-0c465f038e59"
+               href="../_images/why_is_my_agribot_not_moving91.bmp"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/why_is_my_agribot_not_moving91.bmp"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-176">If you are getting motor stalls the AgriBot will stop for a second and then continue.</p></li>
+<li><p class="linemarker linemarker-178">If you know that the track is dirty or there are small slopes or imperfections in the tracks the AgriBot will need more speed (power) to move through these track imperfections with ease.</p></li>
+<li><p class="linemarker linemarker-180">Increase the minimum speed in steps of 50mm/s until your AgriBot has the power to overcome these imperfections.</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="motor-stalls">
+<h2>8. Motor stalls<a class="headerlink" href="#motor-stalls" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-187">If you are having trouble with motor stalls adjust settings in the software and reduce hardware resistance.</p></li>
+<li><p class="linemarker linemarker-189">When the motor stalls its because the motor does not have enough additional torque to overcome the mechanical resistance.</p></li>
+<li><p class="linemarker linemarker-191">When the motor stalls it will make a buzzing sound. The default motor max retries is 3 and this setting is adjustable but we recommend keeping it at 3 tries.</p></li>
+<li><p class="linemarker linemarker-193">This issue stall issue on the z-axis was solved by decreasing the minimum speed value and increasing the number of “Accelerate for” steps.</p></li>
+<li><p class="linemarker linemarker-195">The recommended corrective action was to take out any slack from the belts and lower the maximum speed. These actions fixed the stalling.</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="3.track_tolerance.html" class="btn btn-neutral float-left" title="Track Tolerance" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="5.are_my_encoders_working.html" class="btn btn-neutral float-right" title="Are my encoders working?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17821189-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-17821189-2', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

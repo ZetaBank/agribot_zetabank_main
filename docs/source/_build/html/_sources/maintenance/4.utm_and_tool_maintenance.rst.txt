@@ -1,0 +1,43 @@
+UTM and Tool Maintenance
+===========================
+
+Inspect the UTM o-rings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- It is possible that intense temperature and adverse weather cycles could degrade the rubber o-rings on the bottom of the UTM.
+
+|
+
+Remove magnet debris
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- It is possible for dust, soil, and other debris to magnetically attract to the UTM and Tool magnets and build up over time.
+
+- This debris can prevent the UTM from correctly mounting tools.
+
+|
+
+Remove internal needle debris
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- It is possible for dust, soil, and other debris to become stuck inside of seed injector’s luer loock needles. 
+
+- This can cause a loss of seed suction power and prevent the seed injector from working reliably.
+
+|
+
+Dissolve mineral buildup in the watering nozzle
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- It is possible - depending on your water source - for the watering nozzle to slowly become clogged with mineral buildup and other deposits. 
+
+- This can prevent AgriBot from watering the correct amount for each plant and can also cause uneven spray.
+
+|
+
+Remove weeder and soil sensor debris
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- It is possible for dirt and other debris to become stuck between the weeder implements or build up on the contacts of the soil sensor which could cause inaccurate readings.
+
+|

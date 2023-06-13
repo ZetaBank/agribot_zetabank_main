@@ -1,0 +1,179 @@
+Thread Examples
+=================
+
+Import the necessary python libraries and modules
+
+.. code-block:: python
+
+    from agribot import Agribot, AgribotToken
+    import threading, sys
+
+- MyHandler: A class that handles interactions with the Agribot.
+
+- __init__(self, bot): Initializes the handler with a command queue, sets bot to busy, and turns off LED.
+
+.. code-block:: python
+
+    class MyHandler:
+        def __init__(self, bot):
+            # Store "W", "A", "S", "D", "L", "T" in a queue
+            self.queue = []
+            # Maintain a flag that lets us know if the bot is
+            # ready for more commands.
+            self.busy = True
+            self.bot = bot
+            self.led_status = False  # Default status of LED is off
+
+
+- add_job(self, direction): Adds a direction command to the queue and prompts the bot to read its status.
+  
+.. code-block:: python
+
+    def add_job(self, direction):
+        d = direction.capitalize()
+        if d in ["W", "A", "S", "D", "L","T"]:
+            self.queue.append(d)
+            self.bot.read_status()
+  
+- try_next_job(self): Executes the next command in the queue if the bot is not busy.
+
+.. code-block:: python
+
+    def try_next_job(self):
+        if (len(self.queue) > 0) and (not self.busy):
+            command = self.queue.pop(0)
+            print("sending " + command)
+            self.busy = True
+            if command == "W":
+                return self.bot.move_relative(10, 0, 0)
+            if command == "A":
+                return self.bot.move_relative(0, -10, 0)
+            if command == "S":
+                return self.bot.move_relative(-10, 0, 0)
+            if command == "D":
+                return self.bot.move_relative(0, 10, 0)
+            if command == "L":
+                self.toggle_led()
+            if command == "T":
+                self.bot.take_and_download_photo()
+
+- toggle_led(self): Changes the state of the bot's LED.
+
+.. code-block:: python
+
+    # Function to toggle LED
+    def toggle_led(self):
+        if self.led_status:  
+            self.bot.write_pin(7, 0)  # If LED is on, switch it off
+            self.led_status = False
+        else:
+            self.bot.write_pin(7, 1)  # If LED is off, switch it on
+            self.led_status = True
+
+- on_connect(self, bot, mqtt_client): Reads the bot's status upon connection.
+
+.. code-block:: python
+        
+    def on_connect(self, bot, mqtt_client):
+        self.bot.read_status()
+        pass
+
+- on_change(self, bot, state): Updates the bot's busy status when its state changes and tries the next command if the bot is idle.
+
+.. code-block:: python
+
+    def on_change(self, bot, state):
+        is_busy = state['informational_settings']['busy']
+        if is_busy != self.busy:
+            if is_busy:
+                print("Device is busy")
+            else:
+                print("Device is idle")
+
+        self.busy = is_busy
+        self.try_next_job()
+
+- on_log(self, _bot, log): Prints the bot's log messages.
+
+.. code-block:: python
+
+    def on_log(self, _bot, log):
+        print("LOG: " + log['message'])
+
+- on_response(self, _bot, _response): Remains idle when the bot sends a response.
+
+.. code-block:: python
+
+    def on_response(self, _bot, _response):
+        pass
+
+- on_error(self, _bot, response): Prints the details of the bot's errors.
+
+.. code-block:: python
+
+    def on_error(self, _bot, response):
+        print("ERROR: " + response.id)
+        print("Reason(s) for failure: " + str(response.errors))
+
+- 'if name == 'main': Ensures the code is executed only when this script is run directly, not when imported.
+    - 'raw_token = AgribotToken.download_token(...)': Downloads an authentication token for the Agribot using the provided credentials.
+    - 'fb = Agribot(raw_token)': Initializes an Agribot instance using the downloaded token.
+    - 'handler = MyHandler(fb)': Creates an instance of the custom handler, passing the Agribot instance to it.
+    - 'threading.Thread(target=fb.connect, args=[handler]).start()': Starts a new thread that runs the bot's connect method with the handler as an argument. This allows the bot to process commands concurrently with user input.
+    - 'print("ENTER A DIRECTION VIA WASDLT:")...': Prints the instruction for how to control the Agribot.
+    - 'while True:...': This infinite loop continuously prompts the user for commands and passes them to the handler. It also tries to execute the next job in the queue.
+        - 'except KeyboardInterrupt:...': This exception handler is triggered when the user interrupts the program (typically by pressing Ctrl+C). It disconnects the bot and exits the program.
+
+.. code-block:: python
+
+    if __name__ == '__main__':
+        raw_token = AgribotToken.download_token(
+            "zaxrok@gmail.com", "zeta@1234!")
+        fb = Agribot(raw_token)
+        handler = MyHandler(fb)
+        threading.Thread(target=fb.connect, name="foo", args=[handler]).start()
+        print("ENTER A DIRECTION VIA WASDLT:")
+        print("           ^")
+        print("           W")
+        print("       < A   D >")
+        print("           S")
+        print("           v")
+        print("    L: light, T: Take photo    ")
+        print("")
+
+        try:
+            while True:
+                direction = input("> ")
+                handler.add_job(direction)
+                handler.try_next_job()
+        except KeyboardInterrupt:
+            print("프로그램을 종료합니다.")
+            fb.disconnect()
+            sys.exit(0)
+
+
+.. thumbnail:: /_images/software/3.examples/2.agribot_thread_result.jpg
+
+When entering "w"
+
+.. thumbnail:: /_images/software/3.examples/agribot_thread_w_result.jpg
+
+When entering "l"
+
+.. thumbnail:: /_images/software/3.examples/agribot_thread_l_result.jpg
+
+.. thumbnail:: /_images/software/3.examples/agribot_thread_l_result1.jpg
+
+When entering "l" again
+
+.. thumbnail:: /_images/software/3.examples/agribot_thread_l_result2.jpg
+
+.. thumbnail:: /_images/software/3.examples/agribot_thread_l_result3.jpg
+
+When entering "t"
+
+The photo is saved under the name "recent_image.jpg" where you ran this Python file.
+
+.. thumbnail:: /_images/software/3.examples/agribot_thread_t_result.jpg
+
+.. thumbnail:: /_images/software/3.examples/agribot_thread_t_result1.jpg

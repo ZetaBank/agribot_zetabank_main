@@ -1,0 +1,95 @@
+Tools
+===================
+
+- The AgriBot Universal Tool Mount (UTM) allows our top-of-the-line machine to mount and dismount a variety of lightweight tools — whichever one is appropriate for the task at hand (seeding, watering, weeding, etc).
+
+- Using three neodymium ring magnets, tools are magnetically held in place during operation, but can be automatically dismounted in a toolbay and stored when not in use.
+
+- Once a tool has been mounted, AgriBot can power it up and communicate with it using the 12 gold-plated pogo pins inside the UTM.
+
+- The stock connections include ground, 5v, 24v, as well as analog and digital I/O. Meanwhile, the remaining electrical connections are available for custom tooling such as specialized sensors or low power motorized implements.
+
+- Additionally, the three liquid/gas ports provide water, vacuum air, and an expansion port for custom applications.
+
+- Best of all, because AgriBot is 100% open-source, you can download our CAD models to start designing your own compatible creations right away. Tools can be 3D printed and wired up with common electrical hardware in just an afternoon.
+
+Rotary Tool
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Powered by a 24 volt DC motor and featuring interchangeable implements and an adjustable motor angle, the rotary tool allows AgriBot to perform light duty weed whacking, soil surface milling, and drilling operations.
+
+.. thumbnail:: /_images/hardware/3.tools/rotary_tool.webp
+
+|
+
+Watering Nozzle
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Coupled with a solenoid valve, this tool allows you to precision water your plants with a gentle shower. The two-piece design allows custom spray patterns by 3D printing your own lower half.
+
+.. thumbnail:: /_images/hardware/3.tools/watering_nozzle.webp
+
+|
+
+Weeder
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Stomp out weeds before they become a problem with this customizable weeding tool. The medium sized blades come standard, though you can experiment with corkscrews and other implement designs.
+
+.. thumbnail:: /_images/hardware/3.tools/weeder.webp
+
+|
+
+Soil Sensor
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+By measuring the moisture content of the soil at each plant's location, AgriBot can water crops more efficiently. Coming soon is the ability to measure soil temperature to detect the risk of germination failure.
+
+.. thumbnail:: /_images/hardware/3.tools/soil_sensor.webp
+
+|
+
+Camera
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AgriBot’s built-in waterproof camera can take photos of your plants and soil to detect weeds, measure soil height, and one day identify pests, disease, and fruit ripeness.
+
+.. thumbnail:: /_images/hardware/3.tools/camera.webp
+
+|
+
+Seed Injector
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Powered by a 24 volt vacuum pump, the seed injector can precisely position seeds in the ground with millimeter accuracy. Interchangeable luer lock needles allow for working with all seed sizes.
+
+.. thumbnail:: /_images/hardware/3.tools/seed_injector.webp
+
+|
+
+Seed Troughs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For faster seeding operations over large areas, the gantry-mounted seed troughs allow AgriBot to carry a small supply of seeds as it moves along the x-axis.
+
+.. thumbnail:: /_images/hardware/3.tools/seed_troughs.webp
+
+|
+
+Seed Bin
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The seed bin offers a large basin that can hold larger seeds (Squash, Pumpkin, etc) or a high quantity of one type of seed.
+
+.. thumbnail:: /_images/hardware/3.tools/seed_bin.webp
+
+|
+
+Seed Tray
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The seed tray is suitable for planting many different crops or when the number of seeds per location needs to be strictly controlled.
+
+.. thumbnail:: /_images/hardware/3.tools/seed_tray.webp
+
+|

@@ -1,0 +1,15 @@
+Instruction
+===========================
+
+Here are the contents of this section:
+
+.. toctree:: 
+
+    2.tracks
+    3.gantry
+    4.cross-slide
+    5.z-axis
+    6.cables_and_tubing
+    7.tools
+    8.electronics
+    9.final

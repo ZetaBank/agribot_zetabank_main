@@ -1,0 +1,199 @@
+Why is my AgriBot not moving?
+===================
+
+- Problem description: AgriBot is having trouble with movements.
+
+- This troubleshooting document guides you through a checklist of AgriBot settings, diagnostic tools, and hardware checks to help you get your AgriBot moving reliably.
+
+- You will start out troubleshooting with simple actions.
+
+- If these don’t work for you, you should continue through this guide and perform additional actions to troubleshoot your problem.
+
+- Test your setup after completing each step to see if your problem is solved.
+
+|
+
+1. Ensure AgriBot is connected
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Your AgriBot must be connected to the internet and the web app to receive commands and download the resources you create such as sequences, plant locations, and events.
+
+- If your bot is connected, the web app’s connectivity indicator should be  green.
+
+- If your bot is not connected:
+
+    1. Confirm AgriBot is connected to the internet (via WiFi or ethernet).
+
+    2. Confirm AgriBot is connected to the web app.
+
+- The connectivity popup should show a code 31 diagnosis code when communication is functioning.
+
+- Refer to the connectivity diagnosis codes page for additional help troubleshooting connectivity issues.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving1.png
+
+|
+
+2. Double check your firmware selection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Double check that the model and firmware specified in the app match the actual model of your AgriBot.
+
+- If you incorrectly specify the model of your AgriBot, you will be able to connect and you will have some limited functionality.
+
+- However, the motors will likely not work.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving2.png
+
+|
+
+- To change the model and firmware, go to the firmware section of the settings panel and select the correct firmware for your AgriBot model.
+
+- Then press the button.
+
+- Flashing the firmware may take up to 2 minutes.
+
+- Once complete, try issuing motor movement commands.
+
+- If this doesn’t work, you might try re-flashing the microSD card with AgriBot OS.
+
+|
+
+3. Tighten up gantry connections
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Double check and tighten all of the screws holding the gantry together so there is no “play” in the system.
+
+- The gantry needs to act as one rigid/stiff body.
+
+- If there is some flex in the gantry structure it can cause delays in the movement as the structure flexes prior to the movement.
+
+- Tighten up the whole gantry structure by tightening the M5 screws at the gantry wheel plates and gantry corner brackets.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving3.png
+
+|
+
+4. Equalize the gantry
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- An equalized gantry is one that is exactly perpendicular to the tracks such that it is not crooked, and so that the gantry is not being torqued.
+
+- The X-axis tracks need to be aligned.
+
+- If they are out of alignment they can cause a crooked or torqued gantry, which can cause creaking, extra wear on the v-wheels and motors, and introduce a high amount of friction into the system.
+
+- These issues all decrease the overall reliability of the AgriBot system and decrease the lifespan of the components.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving4.jpg
+
+|
+
+- Test the gantry:
+
+    1. To see if your gantry is equalized, ensure that the x-axis motors are unpowered by unplugging the motor cable and the rotary encoder cables from both the X1 and X2 motors,
+
+    2. Gently push or pull on the gantry from the middle of the gantry main beam such that it moves slowly along the tracks about 30cm. This process will remove any torque on the gantry, and ensure it is not crooked. If you push or pull the gantry from one of the gantry columns, or anywhere that is not the middle of the main beam, then you will torque the gantry and make it crooked.
+    
+    3. It should be easy to push the gantry from one end of the x-axis to the other end. If you sense that there is resistance going back and forth along the tracks, you will need to adjust the tracks or adjust the eccentric spacers to remove the resistance.
+    
+    4. If you need to add a lubricant to lower the resistance at the V-wheels, use a dry lubricant such as powdered graphite. A dry lubricant will not collect dust or dirt and will not gum the wheels or bearings like liquid lubricants or grease will. Do not use a liquid lubricant on the belts, pulleys, or v-wheels.
+    
+    5. Once you have removed the resistance from the tracks, you will need to re-connect the motor and rotary encoder cables. Then you will re-calibrate your AgriBot from the web app.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving5.jpg
+
+|
+
+5. Adjust the belt tension
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- It is possible for the belts to stretch or slip over time which can lead to missed steps, premature wearing, a gantry that binds on the tracks, as well as a loss of precision in AgriBot’s movements.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving6.jpg
+
+|
+
+- Procedure for adjusting the belt tension:
+
+    1. Loosen the belt clip that holds the belt in place.
+    
+    2. Pull the clip to tension the belt - use a small amount of tension
+
+    3. Re-tighten the clip.
+
+    4. Make sure to check all three belts: the two along the tracks, and the one across the gantry main beam. The belts should not be under extreme tension. If they are, AgriBot’s motors will have difficulty in moving and will miss steps. Use a small amount of tension - just enough so that there is no slack in the system.
+    
+    5. Re-equalize the gantry to prevent binding.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving7.png
+
+|
+
+6. Adjust the eccentric spacers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Eccentric spacers are used for making fine adjustments to the spacing between the v-wheels on either side of an aluminum extrusion.
+
+- Adjusting this spacing is key to achieving smooth and wobble-free movement of the gantry across the tracks, the cross-slide across the gantry main beam, and the z-axis up and down the cross-slide.
+
+- If the spacing between v-wheels is too little, then the extrusions will not fit between the v-wheels at all or there will be significant friction when moving.
+
+- If the spacing is too great, then the connection will be wobbly and loose.
+
+- Follow our guide for adjusting the eccentric spacers.
+
+- After the eccentric spacers are adjusted, put the gantry back onto the tracks, re-feed the belts through the drivetrain, and secure the belts back into place for normal operation.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving8.png
+
+|
+
+7. Change the motor settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- If you are having trouble with the movements of the AgriBot, adjust settings and reduce hardware resistance for motor stalls.
+
+- You can reduce the hardware resistance by cleaning the tracks and ensuring there is no dirt or debris on belts or the pulleys.
+
+- The stepper driver power should be last thing you should try to adjust because it’s difficult to adjust and easy to mess up.
+
+- Another thing to remember when you are troubleshooting these NEMA 17 stepper motors is that the faster the step rate the lower the torque.
+
+- This means that if you increase the minimum or maximum speed (mm/s) (AKA the step rate) you will decrease the torque and increase the likelihood of having the motor stall.
+
+- More details on motor stalls are discussed in the next section of this document.
+
+- The default settings provided are the recommended settings for the motor hardware.
+
+- If you wish to restore any of these settings back to their default value, you can see the default value in the setting’s tooltip by hovering over the  icon.
+
+- You can also restore all settings.
+
+.. thumbnail:: /_images/troubleshooting/4.why_is_my_agribot_not_moving/why_is_my_agribot_not_moving9.bmp
+|
+
+- If you are getting motor stalls the AgriBot will stop for a second and then continue.
+
+- If you know that the track is dirty or there are small slopes or imperfections in the tracks the AgriBot will need more speed (power) to move through these track imperfections with ease.
+
+- Increase the minimum speed in steps of 50mm/s until your AgriBot has the power to overcome these imperfections.
+
+|
+
+8. Motor stalls
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- If you are having trouble with motor stalls adjust settings in the software and reduce hardware resistance.
+
+- When the motor stalls its because the motor does not have enough additional torque to overcome the mechanical resistance.
+
+- When the motor stalls it will make a buzzing sound. The default motor max retries is 3 and this setting is adjustable but we recommend keeping it at 3 tries.
+
+- This issue stall issue on the z-axis was solved by decreasing the minimum speed value and increasing the number of “Accelerate for” steps.
+
+- The recommended corrective action was to take out any slack from the belts and lower the maximum speed. These actions fixed the stalling.
+
+|
+
+

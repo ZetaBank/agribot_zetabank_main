@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electronics &mdash; ZetaBank - AgriBot Instruction Guide</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/toc_custom.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\css\lightbox.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/toc_custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\js\lightbox-plus-jquery.min.js"></script>
+        <script src="../_static/sphinxcontrib-images\LightBox2\lightbox2-customize\jquery-noconflict.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Final Steps" href="9.final.html" />
+    <link rel="prev" title="Tools" href="7.tools.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            AgriBot Instruction Guide
+              <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.1.3
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Hardware</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../hardware/1.overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hardware/0.index.html">Features</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/2.safety.html">Safety</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/3.tools.html">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/4.electronics.html">Electronics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/5.questions.html">Frequently Asked Questions</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Assembly</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="1.preparation.html">Preparation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="0.index.html">Instruction</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="2.tracks.html">Tracks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3.gantry.html">Gantry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="4.cross-slide.html">Cross-Slide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="5.z-axis.html">Z-Axis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6.cables_and_tubing.html">Cables and Tubing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="7.tools.html">Tools</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Electronics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="9.final.html">Final Steps</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Maintenance</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../maintenance/0.index.html">Maintenance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/1.general_mainternance.html">General Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/2.track_mainternance.html">Track Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/3.gantry_maintenance.html">Gantry Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/4.utm_and_tool_maintenance.html">UTM and Tool Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/5.storing_agribot_for_winter.html">Storing AgriBot for Winter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../maintenance/6.thermal_management.html">Thermal Management</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Troubleshooting</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting/0.index.html">Troubleshooting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../troubleshooting/1.picking_up_seeds.html">Picking Up Seeds</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../troubleshooting/2.z-axis_movements.html">Z-Axis Movements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../troubleshooting/3.track_tolerance.html">Track Tolerance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../troubleshooting/4.why_is_my_agribot_not_moving.html">Why is my AgriBot not moving?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../troubleshooting/5.are_my_encoders_working.html">Are my encoders working?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../troubleshooting/6.water_pressure.html">Water Pressure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../troubleshooting/7.tool_verification.html">Tool Verification</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference Docs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference_docs/0.index.html">Reference Docs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/1.basic_tool_hardware.html">Basic Tool Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/2.belt_installation.html">Belt Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/3.eccentric_spacer_adjustment.html">Eccentric Spacer Adjustment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/4.agriduino_peripheral_pin_numbers.html">Farmduino Peripheral Pin Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference_docs/5.pinout_references.html">Pinout References</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Software</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../software/0.index.html">Software</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../software/1.overview.html">Software Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../software/2.install.html">Install AgriBot</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">AgriBot Instruction Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="0.index.html">Instruction</a></li>
+      <li class="breadcrumb-item active">Electronics</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/assembly/8.electronics.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="electronics">
+<h1>Electronics<a class="headerlink" href="#electronics" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p class="linemarker linemarker-4">The Agriduino and Raspberry Pi are the central components of the AgriBot from an electronic systems perspective.</p></li>
+<li><p class="linemarker linemarker-6">The diagram below shows how the other electronic components connect to these boards, as well as how the two are connected to each other.</p></li>
+<li><p class="linemarker linemarker-8">The Agriduino microcontroller uses Arduino architecture and it communicates with the Raspberry Pi using a G-code like language.</p></li>
+<li><p class="linemarker linemarker-10">The Agriduino controls the stepper drivers and motors, as well as the UTM and peripherals.</p></li>
+<li><p class="linemarker linemarker-12">The Agriduino provides power and control to all the electronic components of the AgriBot.</p></li>
+<li><p class="linemarker linemarker-14">The board has a layout and connectors that are optimized for AgriBot’s various peripherals and motor requirements.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-1be8ec52-73ad-4296-a6f7-4e1a59e10207"
+               href="../_images/electronics11.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics11.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-20">Meanwhile, the Raspberry Pi is the web-connected brain that keeps track of AgriBot’s plants, sequences, regimens, events, and settings.</p></li>
+<li><p class="linemarker linemarker-22">Additionally, the Raspberry Pi is responsible for taking photos with the USB camera, and monitoring and controlling the push buttons and LEDs on top of the electronics box via the Pi adapter board.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-77632f2f-5f87-41fe-a590-46d0d1e68d07"
+               href="../_images/electronics21.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics21.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="step-1-attach-the-electronics-box-to-the-gantry">
+<h2>Step 1: Attach the electronics box to the gantry<a class="headerlink" href="#step-1-attach-the-electronics-box-to-the-gantry" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-31">Attach the pre-assembled electronics box to the left gantry column using six M5 x 10mm screws and tee nuts.</p></li>
+<li><p class="linemarker linemarker-33">The top flange of the box should be butted against the bottom edge of the gantry corner bracket.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-dce91c95-69cf-48cf-ad8e-ab7fb10ad214"
+               href="../_images/electronics31.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics31.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-2-connect-the-peripherals">
+<h2>Step 2: Connect the peripherals<a class="headerlink" href="#step-2-connect-the-peripherals" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-42">Connect the vacuum pump cable (with gray heat shrink) to the Agriduino peripheral connector labelled VACUUM (the top right connector on Agriduino). The connector will only fit in one direction.</p></li>
+<li><p class="linemarker linemarker-44">Connect the solenoid valve cable (with blue heat shrink) to the Agriduino peripheral connector labelled WATER (directly underneath the vacuum connector). The connector will only fit in one direction.</p></li>
+<li><p class="linemarker linemarker-46">Connect the LED strip to the Agriduino peripheral connector labelled LIGHTING (directly underneath the water connector). The connector will only fit in one direction.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-67a85fb6-2ca9-48c2-bb18-f55603b3471c"
+               href="../_images/electronics41.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics41.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class=""
+               data-lightbox="group-7877916d-e6af-41b6-ad14-1cd3758f70b6"
+               href="../_images/electronics51.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics51.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class=""
+               data-lightbox="group-bd5d7865-4ee5-482e-a8d0-9c93fb2e3ab9"
+               href="../_images/electronics61.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics61.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-3-plug-in-the-stepper-motors-and-rotary-encoders">
+<h2>Step 3: Plug in the stepper motors and rotary encoders<a class="headerlink" href="#step-3-plug-in-the-stepper-motors-and-rotary-encoders" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-63">Plug in the motor and encoder cables to the Agriduino.</p></li>
+<li><p class="linemarker linemarker-65">Each cable is labelled with a white sleeve, which corresponds to the connectors on the Agriduino.</p></li>
+<li><p class="linemarker linemarker-67">From left to right, the connectors on Agriduino are X1, X2, Y, and Z.</p></li>
+<li><p class="linemarker linemarker-69">Each connector can only be inserted in one direction, and has a locking tab to prevent it from falling out.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-a67bc461-91d3-491b-af1e-a3aeb01bb180"
+               href="../_images/electronics71.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics71.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class=""
+               data-lightbox="group-a39f4086-53bf-4eee-a5b2-3584f1d7c1f3"
+               href="../_images/electronics81.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics81.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-4-plug-in-the-camera">
+<h2>Step 4: Plug in the camera<a class="headerlink" href="#step-4-plug-in-the-camera" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-82">Plug the camera cable into the Raspberry Pi. The exact USB port chosen does not matter.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-c8e768a5-e67d-448e-ac4b-5e7ecb90e3cc"
+               href="../_images/electronics91.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics91.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-5-plug-in-the-utm-cable">
+<h2>Step 5: Plug in the UTM cable<a class="headerlink" href="#step-5-plug-in-the-utm-cable" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-91">Plug in the UTM cable to the Agriduino. The connector will only fit in one direction.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-8d021469-c6ac-4bc8-bc4e-fd11861943e2"
+               href="../_images/electronics101.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics101.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-6-plug-the-power-supply-into-the-agriduino">
+<h2>Step 6: Plug the power supply into the Agriduino<a class="headerlink" href="#step-6-plug-the-power-supply-into-the-agriduino" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-100">Connect the 3-pin power supply connector to the Agriduino’s power input. The connector will only fit in one direction.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-acb7294f-0991-4146-a9bb-fdac5c58ceac"
+               href="../_images/electronics111.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics111.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-7-insert-the-supergland">
+<h2>Step 7: Insert the supergland<a class="headerlink" href="#step-7-insert-the-supergland" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-109">Insert one half of the supergland into the slot in the bottom of the electronics box.</p></li>
+<li><p class="linemarker linemarker-111">The left-most hole in the supergland should be small (it is for the camera) while the right-most hole should be medium-sized (it is for the power supply).</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-7fa8f1ae-181a-4e4f-9ff1-33843145abc2"
+               href="../_images/electronics121.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics121.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-117">Organize and position the cables into the supergland. From left to right, the cables should be: camera, UTM, motors, encoders, peripherals, power supply.</p></li>
+<li><p class="linemarker linemarker-119">Once the cables are all inserted into the first supergland half, gently insert the second half of the supergland into the slot in the electronics box.</p></li>
+<li><p class="linemarker linemarker-121">Ensure that the flanges of both supergland halves are on either side of the electronics box wall.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-4888552d-fa2a-466f-80ec-7310c84a6a06"
+               href="../_images/electronics131.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics131.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-8-install-agribot-os-onto-the-microsd-card">
+<h2>Step 8: Install AgriBot OS onto the microSD card<a class="headerlink" href="#step-8-install-agribot-os-onto-the-microsd-card" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-130">Follow these instructions on the software documentation hub to install AgriBot OS onto the micro SD card.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-f57767da-10de-4a8b-9094-49af427a6807"
+               href="../_images/electronics141.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics141.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class=""
+               data-lightbox="group-c069ef0c-0771-4c12-9270-ee67391be94e"
+               href="../_images/electronics151.jpeg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics151.jpeg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-9-mount-the-power-supply">
+<h2>Step 9: Mount the power supply<a class="headerlink" href="#step-9-mount-the-power-supply" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-143">Mount the power supply to your supporting infrastructure using four wood screws.</p></li>
+<li><p class="linemarker linemarker-145">The power supply is IP67 rated, so it can withstand rain and the elements.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-1ff5208a-c317-4578-9eb6-b6d7b915a3dc"
+               href="../_images/electronics161.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics161.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="step-10-plug-in-the-power-supply">
+<h2>Step 10: Plug in the power supply<a class="headerlink" href="#step-10-plug-in-the-power-supply" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p class="linemarker linemarker-154">Connect the power supply cable to the power supply output.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-a86ab14c-cdf9-4241-b14a-3ce6e772ec67"
+               href="../_images/electronics171.png"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics171.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-160">Before plugging the power supply into an outlet or an extension cord, please read the precaution below.</p></li>
+<li><p class="linemarker linemarker-162">If everything looks good, and you understand the precautions needed around powered electronics, go ahead and plug the power supply into a GFCI outlet.</p></li>
+<li><p class="linemarker linemarker-164">If an appropriate outlet is not close enough to plug in directly, use an extension cord and the provided green outdoor electrical connection protector.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-7bb21fe8-152e-46c9-99c8-7dd625672f34"
+               href="../_images/electronics181.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics181.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class=""
+               data-lightbox="group-d0edbb8d-9ef3-4164-8a24-17885450fa15"
+               href="../_images/electronics191.jpg"
+               title=""
+               data-title=""
+               
+               ><img src="../_images/electronics191.jpg"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="7.tools.html" class="btn btn-neutral float-left" title="Tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="9.final.html" class="btn btn-neutral float-right" title="Final Steps" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17821189-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-17821189-2', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

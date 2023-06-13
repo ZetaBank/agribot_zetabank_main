@@ -1,0 +1,47 @@
+Preparation
+===================
+
+Organize your parts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- When you first open up your AgriBot hardware package, pull out all of the component bags and boxes so that you develop a full idea of what’s included, and so that you can place them on a table in locations that make sense to you. 
+
+- For the most part, components are already organized inside the boxes, but it is still good to take a look over everything.
+
+|
+
+Plan accordingly
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- AgriBot is a complex machine with over 1,000 components in total.
+
+- Be prepared to spend the following amount of time assembling your AgriBot.
+
+- Remember, these are just assembly time estimations. Depending on your skill level you may need more or less time.
+
+- Consider assembling AgriBot with a friend to significantly speed things up and help reduce mistakes.
+
+|
+
++--------------------------+-------------------------+-------------------------+
+|       Subassembly        |     Estimated Time      |    Estimated Time (XL)  |
++==========================+=========================+=========================+
+| Supporting Infrastructure|       8 hours           |        12 hours         |
+|       (raised bed)       |                         |                         |
++--------------------------+-------------------------+-------------------------+
+|         Tracks           |       2 hours           |        4 hours          |
++--------------------------+-------------------------+-------------------------+
+|         Gantry           |       2 hours           |        2 hours          |
++--------------------------+-------------------------+-------------------------+
+|      Cross-Slide         |       1 hour            |        1 hour           |
++--------------------------+-------------------------+-------------------------+
+|         Z-Axis           |       1 hour            |        1 hour           |
++--------------------------+-------------------------+-------------------------+
+|    Cables and Tubing     |       2 hours           |        3 hours          |
++--------------------------+-------------------------+-------------------------+
+|    Electronics Box       |    30 minutes           |     30 minutes          |
++--------------------------+-------------------------+-------------------------+
+|          TOTAL           |       17 hours          |        25 hours         |
++--------------------------+-------------------------+-------------------------+
+
+|

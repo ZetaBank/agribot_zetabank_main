@@ -1,0 +1,83 @@
+Final Steps
+===================
+Software setup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- You’re now ready to move onto the software portion of setting up your AgriBot.
+
+- Refer to the getting started guide on our software documentation hub for instructions on how to:
+
+    - Create a web app account
+
+    - Configure AgriBot to connect to your WiFi network and web app account
+
+    - Complete the setup wizard
+
+    - Use the AgriBot web app
+
+|
+
+Picking seeds
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Now that you’ve got your bot assembled and connected to the web, it’s time to start growing things!
+
+- Most common garden veggies will work great with AgriBot, though there are some limitations and best practices.
+
+- Check out our seed selection guide for tips and best practices.
+
+|
+
+Join the community forum
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- You’re now part of a global community of AgriBot owners who are growing food at home, using AgriBot as a teaching tool, and pushing forward the cutting edge of agriculture!
+
+- We encourage you to connect with the community by joining the AgriBot forum at forum.AgriBot.org.
+
+Signing up is completely free and will allow you to chat with others about best practices, modification ideas, troubleshooting issues, gardening tips and tricks, and to be inspired by what everyone is growing.
+
+.. thumbnail:: /_images/assembly/9.final/final1.jpeg
+
+|
+
+Stay in touch
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- If you aren’t already, consider subscribing to our email newsletter. We’ll keep you informed about software updates, hardware upgrades, and new AgriBot drops.
+
+- Plus, an occasional new video highlighting how one of our customers are using AgriBot in a unique way.
+
+- We also have accounts on Instagram, YouTube, Facebook, Twitter, and LinkedIn if you’d like to follow us on any of those platforms.
+
+|
+
+.. thumbnail:: /_images/assembly/9.final/final2.jpg
+
+|
+
+Storing extra parts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Your AgriBot kit included a few extra pieces of some small parts such as screws and nuts just in case we miscounted by a few or you lost anything in the grass during assembly.
+
+- We recommend keeping everything that is left over in a box along with the getting started guide, camera calibration card, the microSD card adpater, and all of the assembly tools.
+
+- For illustrative purposes only. Not all kits will have these exact parts left over after assembly.
+
+|
+
+.. thumbnail:: /_images/assembly/9.final/final3.png
+
+|
+
+Trimming belts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- About a week after using your AgriBot, you may consider using scissors to trim off excess belt.
+
+- This can make for a tidier installation, especially if you didn’t build your AgriBot to the maximum possible size.
+
+- Just keep in mind that once cut, there is no gluing the belt back together - you would need to order new belts if you made a mistake.
+
+- Only trim if you are certain you won’t need the extra length!

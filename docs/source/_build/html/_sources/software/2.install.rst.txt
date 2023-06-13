@@ -1,0 +1,23 @@
+Install AgriBot
+===================
+
+Step 1: Install the python
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Step 2: Install the pip
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Step3: Install the agribot-package
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Install the necessary package first before installing the package.
+
+  .. code-block:: bash
+
+    pip install paho-mqtt wheel
+
+
+- Receive and install the provided whl file.
+
+  .. code-block:: bash
+
+    pip install agrybot-*.whl

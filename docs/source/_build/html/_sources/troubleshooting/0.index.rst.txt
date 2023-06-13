@@ -1,0 +1,14 @@
+Troubleshooting
+===========================
+
+Here are the contents of this section:
+
+.. toctree:: 
+
+    1.picking_up_seeds
+    2.z-axis_movements
+    3.track_tolerance
+    4.why_is_my_agribot_not_moving
+    5.are_my_encoders_working
+    6.water_pressure
+    7.tool_verification

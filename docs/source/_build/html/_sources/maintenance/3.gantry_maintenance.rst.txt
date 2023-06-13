@@ -1,0 +1,42 @@
+Gantry Maintenance
+===========================
+
+Gantry
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Equalize and synchronize the gantry
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- It is possible for the gantry to become twisted such that is not perpendicular to the tracks.
+
+- This is usually caused by an obstruction on one track that stalls that side of the gantry and misaligns the system, or a loose belt on one track.
+
+- If a belt is loose, tighten according to these instructions.
+
+- If the belts are tight and the gantry is twisted, re-equalize and synchronize the gantry using instructions on the gantry page.
+
+|
+
+Cross-Slide
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Inspect the delrin leadscrew block
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Over time, it is possible for the delrin leadscrew block to wear down.
+
+- This can introduce play into the system that decreases z-axis precision, which can cause issues with the mounting and dismounting of tools.
+
+|
+
+Z-Axis
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Clean and lubricate the leadscrew
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- The z-axis leadscrew will become dirty after being outside for a prolonged period of time.
+
+- Excessive dirt and grime on the leadscrew can cause premature wear, a loss of precision, and missed steps if not addressed.
+
+|
