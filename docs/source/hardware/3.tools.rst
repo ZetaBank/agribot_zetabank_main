@@ -1,6 +1,10 @@
 Tools
 ===================
 
+.. thumbnail:: /_images/hardware/3.tools/tools1.jpg
+
+|
+
 - The AgriBot Universal Tool Mount (UTM) allows our top-of-the-line machine to mount and dismount a variety of lightweight tools — whichever one is appropriate for the task at hand (seeding, watering, weeding, etc).
 
 - Using three neodymium ring magnets, tools are magnetically held in place during operation, but can be automatically dismounted in a toolbay and stored when not in use.
