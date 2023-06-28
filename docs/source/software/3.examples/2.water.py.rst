@@ -5,7 +5,7 @@ Watering Examples
 
 |
 
-- Import the necessary python libraries and modules
+- Import the necessary python libraries and modules.
 
 .. code-block:: python
 
@@ -22,13 +22,17 @@ Watering Examples
 
 |
 
-- Define a custom handler, CustomHandler, with three methods:
+- Define a custom handler, CustomHandler, with methods:
 
     - on_connect: Prints a connection confirmation.
 
     - on_response: Stays idle on bot response.
 
     - on_change: Prints bot's current position and disconnects the bot.
+
+    - on_error: Prints the bot's error status.
+
+    - perform_task: Adjust the state of the bot's water pump and water valves.
 
 .. code-block:: python
 
@@ -73,9 +77,7 @@ Watering Examples
 
 |
 
-- Connect the Agribot instance with the CustomHandler instance, 
-
-- resulting in the execution of the defined methods on respective triggers.
+- Connect the Agribot instance with the CustomHandler instance, resulting in the execution of the defined methods on respective triggers.
 
 .. code-block:: python
 

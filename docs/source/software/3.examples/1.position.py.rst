@@ -5,7 +5,7 @@ Position Examples
 
 |
 
-- Import the necessary python libraries and modules
+- Import the necessary python libraries and modules.
 
 .. code-block:: python
 
@@ -21,7 +21,7 @@ Position Examples
 
 |
 
-- Define a custom handler, CustomHandler, with three methods:
+- Define a custom handler, CustomHandler, with methods:
 
     - on_connect: Prints a connection confirmation.
 
@@ -48,9 +48,7 @@ Position Examples
 
 |
 
-- Connect the Agribot instance with the CustomHandler instance, 
-
-- resulting in the execution of the defined methods on respective triggers.
+- Connect the Agribot instance with the CustomHandler instance, resulting in the execution of the defined methods on respective triggers.
 
 .. code-block:: python
 

@@ -43,13 +43,19 @@ Moving and Watering Examples
 
 |
 
-- Define a custom handler, CustomHandler, with three methods:
+- Define a custom handler, CustomHandler, with methods:
 
     - on_connect: Prints a connection confirmation.
 
     - on_response: Stays idle on bot response.
 
     - on_change: Prints bot's current position and disconnects the bot.
+
+    - on_log: Prints the bot's log status.
+
+    - on_error: Prints the bot's error status.
+
+    - perform_task: Move the location according to the list, sprinkle water, and finally return to the initial position.
 
 .. code-block:: python
 
@@ -171,9 +177,7 @@ Moving and Watering Examples
 
 |
 
-- Connect the Agribot instance with the CustomHandler instance, 
-
-- resulting in the execution of the defined methods on respective triggers.
+- Connect the Agribot instance with the CustomHandler instance, resulting in the execution of the defined methods on respective triggers.
 
 .. code-block:: python
 

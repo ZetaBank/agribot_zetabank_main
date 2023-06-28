@@ -43,11 +43,15 @@ Moving Examples
 
 |
 
-- Define a custom handler, CustomHandler, with three methods:
+- Define a custom handler, CustomHandler, with methods:
 
     - on_connect: Prints a connection confirmation.
+
     - on_response: Stays idle on bot response.
+
     - on_change: Prints bot's current position and disconnects the bot.
+
+    - perform_task: Move the position according to the list, and finally return to the initial position.
 
 .. code-block:: python
 
@@ -127,9 +131,7 @@ Moving Examples
 
 |
 
-- Connect the Agribot instance with the CustomHandler instance, 
-
-- resulting in the execution of the defined methods on respective triggers.
+- Connect the Agribot instance with the CustomHandler instance, resulting in the execution of the defined methods on respective triggers.
 
 .. code-block:: python
 

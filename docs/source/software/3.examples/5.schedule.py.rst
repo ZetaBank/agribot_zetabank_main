@@ -15,13 +15,19 @@ scheduling Examples
 
 |
 
-- Define a custom handler, CustomHandler, with three methods:
+- Define a custom handler, CustomHandler, with methods:
 
     - on_connect: Prints a connection confirmation.
 
     - on_response: Stays idle on bot response.
 
     - on_change: Prints bot's current position and disconnects the bot.
+
+    - on_log: Prints the bot's log status.
+
+    - on_error: Prints the bot's error status.
+
+    - perform_task: Watering or LED control by moving position according to time.
 
 .. code-block:: python
 
@@ -218,3 +224,5 @@ scheduling Examples
             sys.exit(0)
 
     schedule_task()
+
+|

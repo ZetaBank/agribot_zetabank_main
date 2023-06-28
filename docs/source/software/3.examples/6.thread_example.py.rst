@@ -12,13 +12,11 @@ Thread Examples
 
 |
 
-- Define a custom handler, CustomHandler, with three methods:
+- Define a custom handler, CustomHandler, with methods:
 
-    - on_connect: Prints a connection confirmation.
+    - add_job: Add the next process.
 
-    - on_response: Stays idle on bot response.
-
-    - on_change: Prints bot's current position and disconnects the bot.
+    - try_next_job: Run the following process.
 
 .. code-block:: python
 
@@ -93,9 +91,7 @@ Thread Examples
 
 |
 
-- Connect the Agribot instance with the CustomHandler instance, 
-
-- resulting in the execution of the defined methods on respective triggers.
+- Connect the Agribot instance with the CustomHandler instance, resulting in the execution of the defined methods on respective triggers.
 
 .. code-block:: python
     if __name__ == '__main__':
