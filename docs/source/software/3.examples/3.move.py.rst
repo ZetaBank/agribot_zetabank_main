@@ -1,0 +1,138 @@
+Moving Examples
+=================
+
+.. thumbnail:: /_images/software/3.examples/3.move.py.png
+
+|
+
+- Import the necessary python libraries and modules
+
+.. code-block:: python
+
+    from agribot import Agribot, StubHandler
+    import threading, time
+
+|
+
+- Log in and create an Agribot instance.
+
+.. code-block:: python
+
+    bot = Agribot.login("zaxrok@gmail.com", "zeta@1234!")
+
+|
+
+- Create a list of positions to go to.
+
+.. code-block:: python
+
+    target_positions = [
+        (300, 150, 0),
+        (300, 300, 0),
+        (300, 450, 0),
+        (550, 450, 0),
+        (550, 300, 0),
+        (550, 150, 0),
+        (800, 150, 0),
+        (800, 300, 0),
+        (800, 450, 0),
+        (1050, 450, 0),
+        (1050, 300, 0),
+        (1050, 150, 0),
+    ]
+
+|
+
+- Define a custom handler, CustomHandler, with three methods:
+
+    - on_connect: Prints a connection confirmation.
+    - on_response: Stays idle on bot response.
+    - on_change: Prints bot's current position and disconnects the bot.
+
+.. code-block:: python
+
+    class CustomHandler(StubHandler):
+        def on_connect(self, bot, client):
+            print("Connected to Agribot")
+            self.start_task()  # 연결 시 작업 시작
+
+        def on_change(self, bot, state):
+            pass
+        
+        def on_error(self, bot, response):
+            print("Received error response")
+            print(response.errors)
+
+        def on_response(self, bot, response):
+            pass
+
+        def perform_task(self):
+            distance_threshold = 5  # 오차 범위(거리 기준) 설정 (예: 5mm)
+            for i, position in enumerate(target_positions):
+                remaining_targets = len(target_positions) - i - 1
+                print(f"Moving to location {position}... ({remaining_targets} targets remaining)")
+                bot.move_absolute(position[0], position[1], position[2])
+
+                # 위치 도달까지 대기
+                while True:
+                    current_position = bot.position()
+                    x_diff = abs(current_position[0] - position[0])
+                    y_diff = abs(current_position[1] - position[1])
+                    z_diff = abs(current_position[2] - position[2])
+                    if x_diff < distance_threshold and y_diff < distance_threshold and z_diff < distance_threshold:
+                        break
+                    time.sleep(1)  # 1초마다 위치 확인
+
+                print(f"Arrived at location {position}")
+
+                # Z 방향으로 200씩 내려가기
+                bot.move_relative(x=0, y=0, z=-200)
+                time.sleep(5)  # 내려간 후 5초 대기
+
+                # 내려간 후 제대로 이동했는지 확인
+                while True:
+                    current_position = bot.position()
+                    z_diff = abs(current_position[2] - (position[2] - 200))
+                    if z_diff < distance_threshold:
+                        break
+                    time.sleep(1)  # 1초마다 위치 확인
+
+                print(f"Moved down successfully. ({remaining_targets} targets remaining)")
+                
+                time.sleep(5)
+
+            # 홈으로 이동
+            bot.find_home()
+            time.sleep(2)
+            
+            # 홈 위치로 이동 후 제대로 도착했는지 확인
+            while True:
+                current_position = self.bot.position()
+                x_diff = abs(current_position[0])
+                y_diff = abs(current_position[1])
+                z_diff = abs(current_position[2])
+                if x_diff < distance_threshold and y_diff < distance_threshold and z_diff < distance_threshold:
+                    break
+                time.sleep(1)  # 1초마다 위치 확인
+
+            print("Moved to home position")
+
+            # 연결 종료
+            bot.disconnect()
+
+        def start_task(self):
+            # 작업을 별도의 스레드에서 실행
+            thread = threading.Thread(target=self.perform_task)
+            thread.start()
+
+|
+
+- Connect the Agribot instance with the CustomHandler instance, 
+
+- resulting in the execution of the defined methods on respective triggers.
+
+.. code-block:: python
+
+    handler = CustomHandler()
+    bot.connect(handler)
+|

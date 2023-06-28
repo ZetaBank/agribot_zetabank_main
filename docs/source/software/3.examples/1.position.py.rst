@@ -1,0 +1,64 @@
+Position Examples
+=================
+
+.. thumbnail:: /_images/software/3.examples/1.position.py.png
+
+|
+
+- Import the necessary python libraries and modules
+
+.. code-block:: python
+
+    from agribot import Agribot, StubHandler
+
+|
+
+- Log in and create an Agribot instance.
+
+.. code-block:: python
+
+    bot = Agribot.login("zaxrok@gmail.com", "zeta@1234!")
+
+|
+
+- Define a custom handler, CustomHandler, with three methods:
+
+    - on_connect: Prints a connection confirmation.
+
+    - on_response: Stays idle on bot response.
+
+    - on_change: Prints bot's current position and disconnects the bot.
+
+.. code-block:: python
+
+    class CustomHandler(StubHandler):
+        def on_connect(self, bot, client):
+            print("Connected to Agribot")
+
+        def on_response(self, bot, response):
+            pass
+
+        def on_change(self, bot, state):
+            # 위치 정보 출력
+            position = bot.position()
+            print("Current position:", position)
+
+            # 연결 종료
+            bot.disconnect()
+
+|
+
+- Connect the Agribot instance with the CustomHandler instance, 
+
+- resulting in the execution of the defined methods on respective triggers.
+
+.. code-block:: python
+
+    handler = CustomHandler()
+    bot.connect(handler)
+
+|
+
+.. thumbnail:: /_images/software/3.examples/1.agribot_postion_result.jpg
+
+|
