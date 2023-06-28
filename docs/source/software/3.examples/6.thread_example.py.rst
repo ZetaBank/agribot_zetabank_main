@@ -3,7 +3,7 @@ Thread Examples
 
 .. thumbnail:: /_images/software/3.examples/6.thread_example.py.png
 
-- Import the necessary python libraries and modules
+- Import the necessary python libraries and modules.
 
 .. code-block:: python
 

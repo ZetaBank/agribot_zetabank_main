@@ -1,9 +1,9 @@
-scheduling Examples
+Scheduling Examples
 =================
 
 .. thumbnail:: /_images/software/3.examples/5.schedule.py.png
 
-- Import the necessary python libraries and modules
+- Import the necessary python libraries and modules.
 
 .. code-block:: python
 
@@ -173,9 +173,7 @@ scheduling Examples
                 self.turn_led(self.led_on)
 
 
-- Connect the Agribot instance with the CustomHandler instance, 
-
-- resulting in the execution of the defined methods on respective triggers.
+- Connect the Agribot instance with the CustomHandler instance, resulting in the execution of the defined methods on respective triggers.
 
 .. code-block:: python
 
